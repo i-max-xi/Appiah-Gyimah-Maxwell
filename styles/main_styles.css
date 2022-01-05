@@ -1,160 +1,213 @@
 body {
-    width: 100vw;
-    background: #ffffff;
-  }
-  
-  header {
-    position: absolute;
-    width: 100vw;
-    height: 72px;
-  
-    display: flexbox;
-  }
-  section {
-    display: flexbox;
-    transform: translateY(30%);
-    padding: 100px;
-  }
-  
-  .logo {
-    position: absolute;
-    left: 10%;
-    top: 10px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    color: #6070ff;
-  }
-  
-  nav {
-    display: flex;
-    position: absolute;
-    left: 80%;
-  }
-  
-  nav a {
-    position: static;
-    width: 63px;
-    height: 20px;
-    left: 12px;
-    top: 10px;
-    color: #344563;
-    text-decoration: none;
-  }
-  
-  .intro {
-    /* Primary Text */
-  
-    position: static;
-    width: 920px;
-    height: 122px;
-    left: 0px;
-    top: 0px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 60px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.37px;
-  
-    color: #091e42;
-  }
-  
-  .description {
-    /* Primary Text */
-  
-    position: static;
-    width: 920px;
-    height: 98px;
-    left: 0px;
-    top: 134px;
-  
-    /* Body / 1 */
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-  
-    color: #344563;
-  }
-  
-  .connect {
-    /* LET’S CONNECT */
-  
-    position: static;
-    width: 117px;
-    height: 24px;
-    left: 0px;
-    top: 0px;
-  
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-  
-    color: #7f8cff;
-  }
-  
-  .social {
-    /* social media icons */
-  
-    position: absolute;
-    width: 170.17px;
-    height: 20px;
-    left: 100px;
-    top: 480px;
-  }
-  
-  .social span {
-    color: #505f79;
-    font-size: 15px;
-  }
-  .social span:hover {
+  width: 100vw;
+  background: #ffffff;
+}
+
+header {
+  position: absolute;
+  width: 100vw;
+  height: 72px;
+
+  display: flexbox;
+}
+section {
+  display: flexbox;
+  transform: translateY(30%);
+  padding: 100px;
+}
+
+.logo {
+  position: absolute;
+  left: 10%;
+  top: 10px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+nav {
+  position: absolute;
+  left: 80%;
+}
+
+nav a {
+  width: 63px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  color: #344563;
+  text-decoration: none;
+  margin: 9px;
+}
+
+nav a:hover{
     color: #075cfa;
-    font-size: 16px;
-  }
-  
-  .deep_right{
-    position: absolute;
-    width: 204px;
-    height: 204px;
-    left: 1080px;
-    top: 92px;
-  }
-  
-  .light_right{
-    position: absolute;
-    width: 204px;
-    height: 87px;
-    left: 1000px;
-    top: 61px;
-    transform: rotate(-15deg);
-  }
-  
-  .deep_left{
-      position: absolute;
-      width: 80.48px;
-      height: 40.24px;
-      left: 139.2px;
-      top: 60.68px;
-      transform: rotate(5deg);
-      z-index: 100;
-  }
-  
-  .light_left{
-      position: absolute;
-      width: 108.67px;
-      height: 59.44px;
-      left: 95.6px;
-      z-index: 0;
-      top: 28.92px;
-      transform: rotate(-25deg);
-  }
-  
+    
+}
+
+.intro {
+
+  position: static;
+  width: 920px;
+  height: 122px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
+
+  color: #091e42;
+}
+
+.description {
+  /* Primary Text */
+
+  position: static;
+  width: 920px;
+  height: 98px;
+  left: 0px;
+  top: 134px;
+
+  /* Body / 1 */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #344563;
+}
+
+.connect {
+  /* LET’S CONNECT */
+
+  position: static;
+  width: 117px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #7f8cff;
+}
+
+.social {
+  /* social media icons */
+
+  position: absolute;
+  width: 170.17px;
+  height: 20px;
+  left: 100px;
+  top: 480px;
+}
+
+.social span {
+  color: #505f79;
+  font-size: 15px;
+}
+.social span:hover {
+  color: #075cfa;
+  font-size: 16px;
+}
+
+.deep_right {
+  position: absolute;
+  width: 204px;
+  height: 204px;
+  left: 1080px;
+  top: 92px;
+}
+
+.light_right {
+  position: absolute;
+  width: 204px;
+  height: 87px;
+  left: 1000px;
+  top: 61px;
+  transform: rotate(-15deg);
+}
+
+.deep_left {
+  position: absolute;
+  width: 80.48px;
+  height: 50.24px;
+  left: 90.2px;
+  top: 60.68px;
+  transform: rotate(5deg);
+  z-index: 100;
+}
+
+.light_left {
+  position: absolute;
+  width: 108.67px;
+  height: 59.44px;
+  left: 35.6px;
+  z-index: 0;
+  top: 28.92px;
+  transform: rotate(-25deg);
+}
+
+.roll_ball {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 720px;
+  top: 749px;
+}
+
+.roll_bar {
+  position: absolute;
+  width: 161.41px;
+  height: 68.87px;
+  left: 605.44px;
+  top: 750px;
+  transform: rotate(7deg);
+}
+
+.bowl {
+  position: absolute;
+  width: 36.9px;
+  height: 18.45px;
+  left: 250.7px;
+  top: 817.93px;
+  transform: rotate(10deg);
+}
+
+.hook {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 226.06px;
+  top: 830.37px;
+  transform: rotate(0deg);
+}
+
+.ball {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 580px;
+  top: 105px;
+}
+
+.bar {
+  position: absolute;
+  width: 56.01px;
+  height: 20.02px;
+  left: 567.25px;
+  top: 87.57px;
+}
