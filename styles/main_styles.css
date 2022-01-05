@@ -1,0 +1,160 @@
+body {
+    width: 100vw;
+    background: #ffffff;
+  }
+  
+  header {
+    position: absolute;
+    width: 100vw;
+    height: 72px;
+  
+    display: flexbox;
+  }
+  section {
+    display: flexbox;
+    transform: translateY(30%);
+    padding: 100px;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 10%;
+    top: 10px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #6070ff;
+  }
+  
+  nav {
+    display: flex;
+    position: absolute;
+    left: 80%;
+  }
+  
+  nav a {
+    position: static;
+    width: 63px;
+    height: 20px;
+    left: 12px;
+    top: 10px;
+    color: #344563;
+    text-decoration: none;
+  }
+  
+  .intro {
+    /* Primary Text */
+  
+    position: static;
+    width: 920px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+  
+    color: #091e42;
+  }
+  
+  .description {
+    /* Primary Text */
+  
+    position: static;
+    width: 920px;
+    height: 98px;
+    left: 0px;
+    top: 134px;
+  
+    /* Body / 1 */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+  
+    color: #344563;
+  }
+  
+  .connect {
+    /* LET’S CONNECT */
+  
+    position: static;
+    width: 117px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  
+    color: #7f8cff;
+  }
+  
+  .social {
+    /* social media icons */
+  
+    position: absolute;
+    width: 170.17px;
+    height: 20px;
+    left: 100px;
+    top: 480px;
+  }
+  
+  .social span {
+    color: #505f79;
+    font-size: 15px;
+  }
+  .social span:hover {
+    color: #075cfa;
+    font-size: 16px;
+  }
+  
+  .deep_right{
+    position: absolute;
+    width: 204px;
+    height: 204px;
+    left: 1080px;
+    top: 92px;
+  }
+  
+  .light_right{
+    position: absolute;
+    width: 204px;
+    height: 87px;
+    left: 1000px;
+    top: 61px;
+    transform: rotate(-15deg);
+  }
+  
+  .deep_left{
+      position: absolute;
+      width: 80.48px;
+      height: 40.24px;
+      left: 139.2px;
+      top: 60.68px;
+      transform: rotate(5deg);
+      z-index: 100;
+  }
+  
+  .light_left{
+      position: absolute;
+      width: 108.67px;
+      height: 59.44px;
+      left: 95.6px;
+      z-index: 0;
+      top: 28.92px;
+      transform: rotate(-25deg);
+  }
+  
