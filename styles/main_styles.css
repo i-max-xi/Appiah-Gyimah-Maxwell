@@ -1,36 +1,20 @@
-body {
-  width: 100vw;
-  background: #ffffff;
-}
-
-header {
-  position: absolute;
-  width: 100vw;
-  height: 72px;
-
-  display: flexbox;
-}
 section {
   display: flexbox;
   transform: translateY(30%);
   padding: 100px;
 }
 
-.logo {
+header {
   position: absolute;
-  left: 10%;
-  top: 10px;
-
+  width: 100%;
+  height: 72px;
+  display: flexbox;
+}
+.logo {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
   color: #6070ff;
-}
-
-nav {
-  position: absolute;
-  left: 80%;
 }
 
 nav a {
@@ -43,76 +27,31 @@ nav a {
   margin: 9px;
 }
 
-nav a:hover{
-    color: #075cfa;
-    
+nav a:hover {
+  color: #075cfa;
 }
-
 .intro {
-
-  position: static;
-  width: 920px;
-  height: 122px;
-  left: 0px;
-  top: 0px;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
   line-height: 60px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.37px;
-
   color: #091e42;
 }
 
 .description {
-  /* Primary Text */
-
-  position: static;
-  width: 920px;
-  height: 98px;
-  left: 0px;
-  top: 134px;
-
-  /* Body / 1 */
+  color: #344563;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-
-  color: #344563;
 }
 
 .connect {
-  /* LET’S CONNECT */
-
-  position: static;
-  width: 117px;
-  height: 24px;
-  left: 0px;
-  top: 0px;
-
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-
   color: #7f8cff;
-}
-
-.social {
-  /* social media icons */
-
-  position: absolute;
-  width: 170.17px;
-  height: 20px;
-  left: 100px;
-  top: 480px;
 }
 
 .social span {
@@ -122,6 +61,68 @@ nav a:hover{
 .social span:hover {
   color: #075cfa;
   font-size: 16px;
+}
+
+/* For desktop screen */
+@media (min-width: 900px) {
+  body {
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    margin: 0;
+  }
+
+  .logo {
+    position: absolute;
+    left: 10%;
+    top: 10px;
+    font-size: 18px;
+  }
+
+  nav {
+    position: absolute;
+    left: 60%;
+    top: 15px;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .intro {
+    position: static;
+    width: 920px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+    font-size: 48px;
+    letter-spacing: 0.37px;
+  }
+
+  .description {
+    position: static;
+    width: 920px;
+    height: 98px;
+    left: 0px;
+    top: 134px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .connect {
+    width: max-content;
+    height: 24px;
+    font-size: 16px;
+    display: flex;
+  }
+
+  .social {
+    position: absolute;
+    width: 170.17px;
+    height: 20px;
+    left: 70px;
+    top: 460px;
+  }
 }
 
 .deep_right {
@@ -210,4 +211,102 @@ nav a:hover{
   height: 20.02px;
   left: 567.25px;
   top: 87.57px;
+}
+
+@media (max-width: 900px) {
+  #menu {
+    display: block;
+    color: #075cfa;
+    float: right;
+    margin-right: 10px;
+    padding: 3px;
+  }
+  .logo {
+    float: left;
+  }
+  nav {
+    display: none;
+  }
+
+  .deep_left {
+    position: absolute;
+    width: 40.48px;
+    height: 20.24px;
+    left: -10px;
+    top: -30px;
+  }
+
+  .light_left {
+    position: absolute;
+    width: 80.67px;
+    height: 29.44px;
+    left: -45px;
+    top: -50px;
+  }
+
+  .deep_right {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 250px;
+    top: -50px;
+  }
+
+  .light_right {
+    position: absolute;
+    width: 120px;
+    height: 47px;
+    left: 200px;
+    top: -80px;
+  }
+  .bowl {
+    position: absolute;
+    width: 36.9px;
+    height: 18.45px;
+    left: 300.7px;
+    top: 640.93px;
+  }
+  
+  .hook {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 280.06px;
+    top: 650.37px;
+
+  }
+  /* .ball {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 200px;
+    top: 105px;
+  }
+  
+  .bar {
+    position: absolute;
+    width: 36.01px;
+    height: 20.02px;
+    left: 27.25px;
+    top: 87.57px;
+  } */
+
+  .bar , .ball{
+    display: none;
+  }
+  .roll_ball {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 165px;
+    top: 749px;
+  }
+  
+  .roll_bar {
+    position: absolute;
+    width: 121.41px;
+    height: 48.87px;
+    left: 90.44px;
+    top: 750px;
+  }
 }
