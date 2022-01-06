@@ -266,14 +266,13 @@ nav a:hover {
     left: 300.7px;
     top: 640.93px;
   }
-  
+
   .hook {
     position: absolute;
     width: 32px;
     height: 32px;
     left: 280.06px;
     top: 650.37px;
-
   }
   /* .ball {
     position: absolute;
@@ -291,7 +290,8 @@ nav a:hover {
     top: 87.57px;
   } */
 
-  .bar , .ball{
+  .bar,
+  .ball {
     display: none;
   }
   .roll_ball {
@@ -301,7 +301,7 @@ nav a:hover {
     left: 165px;
     top: 749px;
   }
-  
+
   .roll_bar {
     position: absolute;
     width: 121.41px;
