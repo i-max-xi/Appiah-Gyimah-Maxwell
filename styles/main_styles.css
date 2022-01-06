@@ -41,9 +41,7 @@ nav a:hover {
 
 .description {
   color: #344563;
-
   font-style: normal;
-  font-weight: normal;
 }
 
 .connect {
@@ -66,7 +64,7 @@ nav a:hover {
 @media (min-width: 900px) {
   body {
     width: 100%;
-    background: #ffffff;
+    background: #fff;
     text-align: center;
     margin: 0;
   }
@@ -91,8 +89,6 @@ nav a:hover {
   .intro {
     width: 920px;
     height: 122px;
-    left: 0px;
-    top: 0px;
     font-size: 48px;
     letter-spacing: 0.37px;
   }
@@ -100,7 +96,6 @@ nav a:hover {
   .description {
     width: 920px;
     height: 98px;
-    left: 0px;
     top: 134px;
     font-size: 20px;
     line-height: 28px;
