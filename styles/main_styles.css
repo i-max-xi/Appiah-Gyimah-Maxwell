@@ -329,15 +329,15 @@ li {
     top: 700px;
   }
 
-  .small_bal {
-    position: absolute;
-    left: 65%;
-    top: -5%;
-  }
-  
   .small_ball {
     position: absolute;
     top: 38%;
     left: 85%;
+  }
+
+  .small_bal {
+    position: absolute;
+    left: 65%;
+    top: -5%;
   }
 }
