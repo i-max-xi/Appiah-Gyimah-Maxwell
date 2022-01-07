@@ -1,8 +1,3 @@
-section {
-  transform: translateY(30%);
-  padding: 100px;
-}
-
 header {
   position: absolute;
   width: 100%;
@@ -14,6 +9,10 @@ header {
   font-style: normal;
   font-weight: bold;
   color: #6070ff;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav a {
@@ -31,12 +30,16 @@ nav a:hover {
 }
 
 .intro {
-  font-style: normal;
-  font-weight: bold;
   line-height: 60px;
   display: flex;
   align-items: center;
   color: #091e42;
+}
+
+section {
+  font-family: "Poppins", sans-serif;
+  padding: 50px;
+  transform: translateY(150px);
 }
 
 .description {
@@ -48,6 +51,15 @@ nav a:hover {
   font-style: normal;
   font-weight: 500;
   color: #7f8cff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 3px;
 }
 
 .social span {
@@ -86,19 +98,21 @@ nav a:hover {
     display: none;
   }
 
+  .section {
+    transform: translateY(30%);
+    padding: 100px;
+  }
+
   .intro {
     width: 920px;
     height: 122px;
-    font-size: 48px;
-    letter-spacing: 0.37px;
+    font-size: 55px;
   }
 
   .description {
     width: 920px;
-    height: 98px;
-    top: 134px;
+    height: 100px;
     font-size: 20px;
-    line-height: 28px;
   }
 
   .connect {
@@ -114,6 +128,12 @@ nav a:hover {
     height: 20px;
     left: 70px;
     top: 460px;
+  }
+
+  .small_ball {
+    position: absolute;
+    top: 80%;
+    left: 70%;
   }
 }
 
@@ -136,7 +156,7 @@ nav a:hover {
 
 .deep_left {
   position: absolute;
-  width: 80.48px;
+  width: 70.48px;
   height: 50.24px;
   left: 90.2px;
   top: 60.68px;
@@ -206,6 +226,16 @@ nav a:hover {
 }
 
 @media (max-width: 900px) {
+  .intro {
+    line-height: 35px;
+    font-size: 35px;
+    width: 290px;
+  }
+
+  strong {
+    font-weight: 900;
+  }
+
   #menu {
     display: block;
     color: #075cfa;
@@ -226,68 +256,87 @@ nav a:hover {
     position: absolute;
     width: 40.48px;
     height: 20.24px;
-    left: -10px;
-    top: -30px;
+    left: -25px;
+    top: -5px;
   }
 
   .light_left {
     position: absolute;
     width: 80.67px;
     height: 29.44px;
-    left: -45px;
-    top: -50px;
+    left: -50px;
+    top: 15px;
   }
 
   .deep_right {
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 250px;
-    top: -50px;
+    left: 350px;
   }
 
   .light_right {
     position: absolute;
     width: 120px;
     height: 47px;
-    left: 200px;
-    top: -80px;
+    left: 315px;
   }
 
   .bowl {
     position: absolute;
-    width: 36.9px;
-    height: 18.45px;
-    left: 300.7px;
-    top: 640.93px;
+    width: 30.9px;
+    height: 16px;
+    left: 316.7px;
+    top: 540.93px;
   }
 
   .hook {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 280.06px;
-    top: 650.37px;
+    width: 28px;
+    height: 28px;
+    left: 300.06px;
+    top: 550.37px;
   }
 
-  .bar,
+  .bar {
+    width: 30.01px;
+    height: 10px;
+    left: 179.25px;
+    top: 45px;
+    rotate: 45deg;
+  }
   .ball {
-    display: none;
+    width: 15px;
+    height: 15px;
+    left: 180px;
+    top: 50px;
   }
 
   .roll_ball {
     position: absolute;
-    width: 27px;
-    height: 27px;
-    left: 165px;
-    top: 749px;
+    width: 20px;
+    height: 20px;
+    left: 250px;
+    top: 700px;
   }
 
   .roll_bar {
     position: absolute;
-    width: 121.41px;
-    height: 48.87px;
-    left: 90.44px;
-    top: 750px;
+    width: 110.41px;
+    height: 38.87px;
+    left: 180.44px;
+    top: 700px;
+  }
+
+  .small_bal {
+    position: absolute;
+    left: 65%;
+    top: -5%;
+  }
+  
+  .small_ball {
+    position: absolute;
+    top: 38%;
+    left: 85%;
   }
 }
