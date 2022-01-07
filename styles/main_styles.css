@@ -84,7 +84,7 @@ li {
   .logo {
     position: absolute;
     left: 10%;
-    top: 10px;
+    top: 15px;
     font-size: 18px;
   }
 
@@ -126,7 +126,7 @@ li {
     position: absolute;
     width: 170.17px;
     height: 20px;
-    left: 70px;
+    left: 5px;
     top: 460px;
   }
 
@@ -229,7 +229,7 @@ li {
   .intro {
     line-height: 35px;
     font-size: 35px;
-    width: 290px;
+    width: 210px;
   }
 
   strong {
@@ -246,6 +246,12 @@ li {
 
   .logo {
     float: left;
+    padding: 3px;
+  }
+
+  .social {
+    position: absolute;
+    left: 5px;
   }
 
   nav {
@@ -272,14 +278,14 @@ li {
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 350px;
+    left: 75%;
   }
 
   .light_right {
     position: absolute;
     width: 120px;
     height: 47px;
-    left: 315px;
+    left: 65%;
   }
 
   .bowl {
@@ -301,7 +307,7 @@ li {
   .bar {
     width: 30.01px;
     height: 10px;
-    left: 179.25px;
+    left: 169.25px;
     top: 45px;
     rotate: 45deg;
   }
@@ -309,7 +315,7 @@ li {
   .ball {
     width: 15px;
     height: 15px;
-    left: 180px;
+    left: 170px;
     top: 50px;
   }
 
