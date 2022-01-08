@@ -89,7 +89,7 @@ li {
     background: #fff;
     text-align: center;
     margin: 0;
-    font-family: 'poppins';
+    font-family: "poppins";
   }
 
   .logo {
@@ -404,12 +404,12 @@ li {
     margin-right: 6px;
   }
 
-  .action{
+  .action {
     margin-top: 8px;
     padding: 3px 10px 2px 0px;
   }
 
-  .see-project :hover{
+  .see-project :hover {
     background-color: blue;
     color: white;
   }
@@ -423,4 +423,72 @@ li {
     color: #6070ff;
     transition: 3ms;
   }
+
+  .about-section {
+    font-family: "poppins";
+    background-color: white;
+    border-top-right-radius: 25% 45px;
+    padding: 70px 24px;
+  }
+
+  .for-space {
+    padding: 20px 0px;
+  }
+
+  .skill-headline {
+    display: grid;
+    grid-template-columns: auto 30px;
+  }
+
+  .skill-headline .icon {
+    margin-top: 22px;
+    width: 20px;
+  }
+
+  .skill-headline span {
+    background-color: none;
+  }
+  .skill-item ul {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    font-size: 15px;
+    color: #253858;
+    transform: translateX(-25px);
+  }
+
+  .skill-item ul li {
+    background: #f7f7f9;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .skill-logo{
+    display: inline-block;
+    width: 35px;
+  }
+
+  #js-logo{
+    width: 50px;
+    transform: translateX(-7px);
+  }
+
+  #css-logo{
+    width: 41px;
+    transform: translateX(-2px);
+  }
+
+  .skill-text{
+    transform: translateY(-8px);
+    display: inline-block;
+  }
+
+  #skill-text-special_1{
+    padding-left: 6.3%;
+  }
+
+  #skill-text-special_2{
+    padding-left: 5.3%;
+
+  }
+
 }
