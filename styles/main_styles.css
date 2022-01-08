@@ -382,7 +382,7 @@ li {
 
   .work-item .work-card {
     border-radius: 8px;
-    width: 295px;
+    width: 100%;
   }
 
   .pale-info-container {
