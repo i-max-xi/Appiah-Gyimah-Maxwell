@@ -435,6 +435,11 @@ li {
     padding: 20px 0px;
   }
 
+  .main-list{
+    display: block;
+    transform: translateX(-30px);
+  }
+
   .skill-headline {
     display: grid;
     grid-template-columns: auto 30px;
