@@ -42,12 +42,12 @@ nav a:hover {
 }
 
 h1 {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 .showcase {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 25px;
   transform: translateY(150px);
 }
@@ -89,7 +89,7 @@ li {
     background: #fff;
     text-align: center;
     margin: 0;
-    font-family: "poppins" sans-serif;
+    font-family: "poppins", sans-serif;
   }
 
   .logo {
@@ -422,7 +422,7 @@ li {
   }
 
   .about-section {
-    font-family: "poppins" sans-serif;
+    font-family: "poppins", sans-serif;
     background-color: white;
     border-top-right-radius: 25% 45px;
     padding: 70px 24px;
