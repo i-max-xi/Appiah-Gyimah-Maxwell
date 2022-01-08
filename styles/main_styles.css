@@ -295,7 +295,6 @@ li {
     height: 60px;
     left: 80%;
     top: 50px;
-    rotate: 20px;
   }
 
   .light_right {
@@ -372,8 +371,6 @@ li {
     display: grid;
     grid-template-columns: auto;
     padding: 70px 24px;
-    /* flex-direction: column;
-    align-items: center; */
   }
 
   .work-item {
@@ -435,7 +432,7 @@ li {
     padding: 20px 0px;
   }
 
-  .main-list{
+  .main-list {
     display: block;
     transform: translateX(-30px);
   }
@@ -450,9 +447,6 @@ li {
     width: 20px;
   }
 
-  .skill-headline span {
-    background-color: none;
-  }
   .skill-item ul {
     display: grid;
     grid-template-rows: auto auto auto;
@@ -467,33 +461,31 @@ li {
     padding: 10px;
   }
 
-  .skill-logo{
+  .skill-logo {
     display: inline-block;
     width: 35px;
   }
 
-  #js-logo{
+  #js-logo {
     width: 50px;
     transform: translateX(-7px);
   }
 
-  #css-logo{
+  #css-logo {
     width: 41px;
     transform: translateX(-2px);
   }
 
-  .skill-text{
+  .skill-text {
     transform: translateY(-8px);
     display: inline-block;
   }
 
-  #skill-text-special_1{
+  #skill-text-special_1 {
     padding-left: 6.3%;
   }
 
-  #skill-text-special_2{
+  #skill-text-special_2 {
     padding-left: 5.3%;
-
   }
-
 }
