@@ -1,7 +1,12 @@
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+}
+
 header {
-  position: absolute;
   width: 100%;
   height: 72px;
+  padding-top: 15px;
 }
 
 .logo {
@@ -36,9 +41,14 @@ nav a:hover {
   color: #091e42;
 }
 
+h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
 section {
-  font-family: "Poppins", sans-serif;
-  padding: 50px;
+  font-family: "Poppins";
+  padding: 25px;
   transform: translateY(150px);
 }
 
@@ -226,14 +236,22 @@ li {
 }
 
 @media (max-width: 900px) {
+  .hero-section {
+    margin: 0;
+    border-bottom-left-radius: 25% 45px;
+    height: 718px;
+    width: 100vw;
+    background-color: white;
+  }
+
+  .showcase {
+    margin-top: -80px;
+  }
+
   .intro {
     line-height: 35px;
     font-size: 35px;
     width: 210px;
-  }
-
-  strong {
-    font-weight: 900;
   }
 
   #menu {
@@ -251,10 +269,10 @@ li {
 
   .social {
     position: absolute;
-    left: 5px;
+    left: -15px;
   }
 
-  nav {
+  nav a {
     display: none;
   }
 
@@ -276,16 +294,19 @@ li {
 
   .deep_right {
     position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 75%;
+    width: 60px;
+    height: 60px;
+    left: 80%;
+    top: 50px;
+    rotate: 20px;
   }
 
   .light_right {
     position: absolute;
-    width: 120px;
+    width: 100px;
     height: 47px;
-    left: 65%;
+    left: 70%;
+    top: 25px;
   }
 
   .bowl {
@@ -293,7 +314,7 @@ li {
     width: 30.9px;
     height: 16px;
     left: 316.7px;
-    top: 540.93px;
+    top: 341.93px;
   }
 
   .hook {
@@ -301,22 +322,22 @@ li {
     width: 28px;
     height: 28px;
     left: 300.06px;
-    top: 550.37px;
+    top: 350.37px;
   }
 
   .bar {
-    width: 30.01px;
+    width: 25.01px;
     height: 10px;
-    left: 169.25px;
-    top: 45px;
+    left: 125.25px;
+    top: 14px;
     rotate: 45deg;
   }
 
   .ball {
-    width: 15px;
-    height: 15px;
-    left: 170px;
-    top: 50px;
+    width: 10px;
+    height: 10px;
+    left: 130px;
+    top: 20px;
   }
 
   .roll_ball {
@@ -324,7 +345,7 @@ li {
     width: 20px;
     height: 20px;
     left: 250px;
-    top: 700px;
+    top: 465px;
   }
 
   .roll_bar {
@@ -332,18 +353,20 @@ li {
     width: 110.41px;
     height: 38.87px;
     left: 180.44px;
-    top: 700px;
+    top: 465px;
   }
 
   .small_ball {
     position: absolute;
     top: 38%;
     left: 85%;
+    width: 7px;
   }
 
   .small_bal {
     position: absolute;
     left: 65%;
     top: -5%;
+    width: 10.1px;
   }
 }
