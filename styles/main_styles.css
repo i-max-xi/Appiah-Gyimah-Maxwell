@@ -42,12 +42,12 @@ nav a:hover {
 }
 
 h1 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 .showcase {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   padding: 25px;
   transform: translateY(150px);
 }
@@ -89,6 +89,7 @@ li {
     background: #fff;
     text-align: center;
     margin: 0;
+    font-family: "poppins", sans-serif;
   }
 
   .logo {
@@ -230,6 +231,7 @@ li {
   top: 87.57px;
 }
 
+/* For mobile */
 @media (max-width: 900px) {
   .hero-section {
     margin: 0;
@@ -293,7 +295,6 @@ li {
     height: 60px;
     left: 80%;
     top: 50px;
-    rotate: 20px;
   }
 
   .light_right {
@@ -363,5 +364,129 @@ li {
     left: 65%;
     top: -5%;
     width: 10.1px;
+  }
+
+  /* work section */
+  .works-container {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 24px;
+  }
+
+  .work-item {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 70px;
+  }
+
+  .work-item .work-card {
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .pale-info-container {
+    display: flex;
+    flex-direction: row;
+    transform: translateX(-42px);
+  }
+
+  .pale-info {
+    align-items: center;
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+    color: rgb(64, 64, 192);
+    font-size: 12px;
+    width: fit-content;
+    margin-right: 6px;
+  }
+
+  .action {
+    margin-top: 8px;
+    padding: 3px 10px 2px 1px;
+  }
+
+  .see-project :hover {
+    background-color: blue;
+    color: white;
+  }
+
+  .see-project {
+    border: 1px solid #6070ff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+    padding: 6px;
+    color: #6070ff;
+    transition: 3ms;
+  }
+
+  .about-section {
+    font-family: "poppins", sans-serif;
+    background-color: white;
+    border-top-right-radius: 25% 45px;
+    padding: 70px 24px;
+  }
+
+  .for-space {
+    padding: 20px 1px;
+  }
+
+  .main-list {
+    display: block;
+    width: 100%;
+  }
+
+  .skill-headline {
+    display: grid;
+    grid-template-columns: auto 30px;
+  }
+
+  .skill-headline .icon {
+    margin-top: 22px;
+    width: 20px;
+  }
+
+  .skill-item ul {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    font-size: 15px;
+    color: #253858;
+    padding-left: 0.1px;
+  }
+
+  .skill-item ul li {
+    background: #f7f7f9;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .skill-logo {
+    display: inline-block;
+    width: 35px;
+  }
+
+  #js-logo {
+    width: 50px;
+    transform: translateX(-7px);
+  }
+
+  #css-logo {
+    width: 41px;
+    transform: translateX(-2px);
+  }
+
+  .skill-text {
+    transform: translateY(-12px);
+    display: inline-block;
+  }
+
+  #skill-text-special_1 {
+    padding-left: 6.3%;
+  }
+
+  #skill-text-special_2 {
+    padding-left: 5.3%;
   }
 }
