@@ -368,8 +368,8 @@ li {
 
   /* work section */
   .works-container {
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    flex-direction: column;
     padding: 70px 24px;
   }
 
@@ -388,6 +388,7 @@ li {
   .pale-info-container {
     display: flex;
     flex-direction: row;
+    transform: translateX(-42px);
   }
 
   .pale-info {
@@ -434,7 +435,7 @@ li {
 
   .main-list {
     display: block;
-    transform: translateX(-30px);
+    width: 100%;
   }
 
   .skill-headline {
@@ -452,7 +453,7 @@ li {
     grid-template-rows: auto auto auto;
     font-size: 15px;
     color: #253858;
-    transform: translateX(-25px);
+    padding-left: 0.1px;
   }
 
   .skill-item ul li {
@@ -477,7 +478,7 @@ li {
   }
 
   .skill-text {
-    transform: translateY(-8px);
+    transform: translateY(-12px);
     display: inline-block;
   }
 
