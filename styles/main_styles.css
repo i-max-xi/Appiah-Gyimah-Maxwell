@@ -507,11 +507,16 @@ li {
 
   .contact p {
     height: 102px;
-    width: 327px;
+    width: 300px;
     color: #ebebff;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
   }
 
   .contact input {
@@ -520,6 +525,7 @@ li {
     border-radius: 8px;
     margin-top: 15px;
     padding: 10px;
+    border: 0.1px;
   }
 
   .contact textarea {
@@ -543,10 +549,10 @@ li {
   }
 
   .contact-ellipse {
-    transform: translateX(80px);
+    transform: translateX(220px) translateY(-62px);
   }
 
   .contact-rectangle {
-    transform: translateX(40px) translateY(-5px);
+    transform: translateX(180px) translateY(-67px);
   }
 }
