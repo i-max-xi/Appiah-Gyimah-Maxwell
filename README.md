@@ -8,12 +8,16 @@ Built With:
 
 Libraries auch as Bootstrap may be used.
 
-Author: 
+Author1: 
     linkedIn: https://www.linkedin.com/in/appiah-maxwell-0212b41a1/
     GitHub: https://github.com/i-max-xi
 
+Author2: 
+    linkedIn: https://www.linkedin.com/in/lynette-acholah/
+    GitHub: https://twitter.com/acholah_lynette
+
 Acknowledgement:
-    Big thanks to Microverse
+    Big thanks to Microverse and to my awesome partner.
 
 License:
     this project has not being licensed yet.
