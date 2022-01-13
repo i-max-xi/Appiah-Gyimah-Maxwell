@@ -18,63 +18,50 @@
     />
   </head>
   <body>
-    <div class="hero-section">
-      <header>
-        <div class="logo"><a href="#">My logo</a></div>
-        <nav>
-          <div class="fa fa-bars" id="menu"></div>
+    <header>
+      <div class="logo"><a href="#">My logo</a></div>
+      <nav>
+        <div class="fa fa-bars" id="menu"></div>
+        <div class="links">
           <a href="#">Portfolio</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
-        </nav>
-      </header>
-
-      <section class="showcase">
-        <img src="Assets/Ellipse8.png" class="small_bal" alt="small_ball_1" />
-        <img src="Assets/Ellipse14.png" class="small_ball" alt="small_ball_2" />
-        <img src="Assets/Ellipse5.png" class="ball" alt="ball" />
-        <img src="Assets/Rectangle7.png" class="bar" alt="bar" />
-        <img src="Assets/Ellipse11.png" class="deep_left" alt="left_ellipse" />
-        <img src="Assets/Rectangle4.png" class="light_right" alt="right_box" />
-        <img src="Assets/Ellipse3.png" class="deep_right" alt="right_ellispe" />
-        <img src="Assets/Rectangle6.png" class="light_left" alt="left_box" />
-        <h1 class="intro">
-          I'm Max <br />
-          Glad to see you!
-        </h1>
-
-        <p class="description">
-          I'm a software developer! I can help you build a product , feature or
-          website. Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don't hestiate to contact
-          me.
-        </p>
-        <span class="connect">LET'S CONNECT</span>
-        <div class="social">
-          <ul>
-            <li>
-              <a href="#"><span class="fa fa-twitter twitter"></span></a>
-            </li>
-            <li>
-              <a href="#"><span class="fa fa-linkedin"></span></a>
-            </li>
-            <li>
-              <a href="#"><span class="fa fa-medium"></span></a>
-            </li>
-            <li>
-              <a href="#"><span class="fa fa-github"></span></a>
-            </li>
-            <li>
-              <a href="#"><span class="fa fa-hand-peace"></span></a>
-            </li>
-          </ul>
         </div>
-        <img src="./Assets/Ellipse4.png" class="roll_ball" alt="roll_ball" />
-        <img src="./Assets/Rectangle5.png" class="roll_bar" alt="roll_bar" />
-        <img src="./Assets/Ellipse12.png" class="bowl" alt="bowl" />
-        <img src="./Assets/Ellipse13.png" class="hook" alt="hook" />
-      </section>
-    </div>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <h1 class="intro">
+        I'm Max <br />
+        Glad to see you!
+      </h1>
+
+      <p class="description">
+        I'm a software developer! I can help you build a product , feature or
+        website. Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don't hestiate to contact me.
+      </p>
+      <div class="interact">
+        <span class="connect">LET'S CONNECT</span>
+        <ul class="social">
+          <li>
+            <a href="#"><span class="fa fa-twitter twitter"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-medium"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-github"></span></a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-hand-peace"></span></a>
+          </li>
+        </ul>
+      </div>
+    </section>
     <section class="works-container">
       <div class="work-item">
         <img
@@ -156,9 +143,9 @@
           you see and have a project you need coded, don't hestiate to contact
           me.
         </p>
-        <span class="connect">LET'S CONNECT</span>
-        <div class="social">
-          <ul>
+        <div class="interact">
+          <span class="connect">LET'S CONNECT</span>
+          <ul class="social">
             <li>
               <a href="#"><span class="fa fa-twitter twitter"></span></a>
             </li>
@@ -176,10 +163,9 @@
             </li>
           </ul>
         </div>
-        <div class="for-space"></div>
-      </div>
-      <div class="action">
-        <button class="see-project" type="button">Get My Resume</button>
+        <div class="action">
+          <button class="see-project" type="button">Get My Resume</button>
+        </div>
       </div>
 
       <!-- For skills section -->
@@ -268,14 +254,19 @@
 
     <!-- Contact section -->
     <footer class="contact">
-      <h1>Contact Me</h1>
-      <p>
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I’d love to help
-        with it
-      </p>
+      <div>
+        <h1>Contact Me</h1>
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
 
-      <form action="https://formspree.io/f/mvolzpoz" method="post" id="my-form">
+        <form
+          action="https://formspree.io/f/mvolzpoz"
+          method="post"
+          id="my-form"
+        >
           <input
             type="text"
             placeholder="Full name"
@@ -296,17 +287,19 @@
             required
           ></textarea>
           <input type="submit" class="btn" value="Get in touch" />
-      </form>
+        </form>
+      </div>
+
       <img
-      src="./Assets/contact_ellipse_5.png"
-      alt="contact shape1"
-      class="contact-ellipse"
-    />
-    <img
-      src="./Assets/contacts_rectangle_7.png"
-      alt="contact shape2"
-      class="contact-rectangle"
-    />
+        src="./Assets/contact_ellipse_5.png"
+        alt="contact shape1"
+        class="contact-ellipse"
+      />
+      <img
+        src="./Assets/contacts_rectangle_7.png"
+        alt="contact shape2"
+        class="contact-rectangle"
+      />
     </footer>
   </body>
 </html>
