@@ -15,7 +15,7 @@ The project showcases previous projects with links to visit and explore its awes
 Libraries auch as Bootstrap may be used.
 
 ## Live Demo
-https://i-max-xi.github.io/Microverse-Week-1_P2/
+[Portfolio web](https://i-max-xi.github.io/Microverse-Week-1_P2/)
 
 Quick note: Deployment is rooted to the master branch hence unmerged changes may not show.
 
