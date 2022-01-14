@@ -18,6 +18,48 @@ header {
   color: #6070ff;
   float: left;
   padding: 3px;
+  animation-name: rotate;
+  -webkit-animation-name: rotate;
+  -o-animation-name: rotate;
+  -moz-animation-name: rotate;
+  animation-duration: 4s;
+  rotate: 0deg;
+}
+
+@keyframes rotate {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+@-moz-keyframes rotate {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+
+@-o-keyframes rotate {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
 }
 
 a {
@@ -359,7 +401,7 @@ form {
     transform: scale(1.03);
   }
 
-  button:hover{
+  button:hover {
     background-color: #6070ff;
     color: white;
     transition: 600ms;
