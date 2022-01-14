@@ -355,6 +355,10 @@ form {
     margin-right: 1px;
   }
 
+  .work-item img:hover {
+    transform: scale(1.03);
+  }
+
   button:hover{
     background-color: #6070ff;
     color: white;
@@ -393,6 +397,10 @@ form {
     align-items: center;
     text-align: center;
     background-image: url(../Assets/contact-bg.png);
+  }
+
+  .contact p:hover {
+    transform: translateX(5px);
   }
 
   .contact-ellipse,
