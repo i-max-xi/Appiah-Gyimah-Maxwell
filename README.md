@@ -3,7 +3,6 @@ Official Portfolio
 This project is a build of my official Software Developer portfolio.
 
 ![sneak peak of project deployment](Assets/sneak_peak.JPG)
-![screenshot](./screenshot9.png)
 
 
 The project showcases previous projects with links to visit and explore its awesome features in the hopes to build a fantastic reputation as a Software Developer.
