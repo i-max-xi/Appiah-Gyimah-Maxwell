@@ -20,7 +20,6 @@ header {
   padding: 3px;
   animation-name: rotate;
   -webkit-animation-name: rotate;
-  -o-animation-name: rotate;
   -moz-animation-name: rotate;
   animation-duration: 4s;
   rotate: 0deg;
@@ -51,16 +50,6 @@ header {
     rotate: 0deg;
   }
 
-  100% {
-    rotate: 360deg;
-  }
-}
-
-@-o-keyframes rotate {
-  0% {
-    rotate: 0deg;
-  }
-  
   100% {
     rotate: 360deg;
   }
