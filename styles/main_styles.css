@@ -355,7 +355,7 @@ form {
     margin-right: 1px;
   }
 
-  .skill-item ul{
+  .skill-item ul {
     grid-template-columns: 100px 100px 100px;
   }
 
@@ -364,7 +364,7 @@ form {
     margin: 5px;
   }
 
-  .skill-text{
+  .skill-text {
     display: block;
   }
 
