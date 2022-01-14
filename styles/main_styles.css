@@ -355,6 +355,19 @@ form {
     margin-right: 1px;
   }
 
+  .skill-item ul{
+    grid-template-columns: 100px 100px 100px;
+  }
+
+  .skill-item ul li {
+    padding: 2px;
+    margin: 5px;
+  }
+
+  .skill-text{
+    display: block;
+  }
+
   .about-section {
     display: grid;
     grid-template-columns: 45% 40%;
