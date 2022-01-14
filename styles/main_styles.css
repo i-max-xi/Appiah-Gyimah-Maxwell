@@ -356,16 +356,34 @@ form {
   }
 
   .skill-item ul {
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 120px 120px 120px;
+    text-align: left;
   }
 
   .skill-item ul li {
-    padding: 2px;
-    margin: 5px;
+    margin: 7px;
+  }
+
+  .skill-logo {
+    width: 40px;
+  }
+
+  #css-logo {
+    width: 45px;
+  }
+
+  #js-logo {
+    width: 60px;
+  }
+
+  #skill-text-special_1,
+  #skill-text-special_2 {
+    padding-top: 15px;
   }
 
   .skill-text {
     display: block;
+    padding-top: 10px;
   }
 
   .about-section {

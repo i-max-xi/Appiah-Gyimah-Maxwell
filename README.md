@@ -1,7 +1,10 @@
-This project is a build of my software develper portfolio. It is also a test of transferring FIGMA designs into
-HTML, CSS coded pages.
+Official Portfolio
+
+This project is a build of my official Software Developer portfolio.
 
 ![sneak peak of project deployment](Assets\sneak_peak.JPG)
+
+The project showcases previous projects with links to visit and explore its awesome features in the hopes to build a fantastic reputation as a Software Developer.
 
 Built With:
     HTML
@@ -23,8 +26,13 @@ Author2:
     linkedIn: https://www.linkedin.com/in/lynette-acholah/
     GitHub: https://twitter.com/acholah_lynette
 
+Show your support
+Give a ⭐️ if you like this project!
+
 Acknowledgement:
     Big thanks to Microverse and to my awesome partner.
+    Hat tip to W3css and every website that trained me to code.
+    etc.
 
-License:
-    this project has not being licensed yet.
+📝 License
+   This project is MIT licensed.
