@@ -453,7 +453,7 @@ form {
   }
 
   .contact p:hover {
-    transform: translateX(5px);
+    transform: translateY(-3px);
   }
 
   .contact-ellipse,
