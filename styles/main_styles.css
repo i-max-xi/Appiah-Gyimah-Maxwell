@@ -313,7 +313,7 @@ form {
   .hero-section {
     background-image: url(../Assets/Header-bg-desktop.png);
     background-color: white;
-    background-size: 100% 100vh;
+    background-size: 100%;
     padding: 160px 100px;
   }
 
