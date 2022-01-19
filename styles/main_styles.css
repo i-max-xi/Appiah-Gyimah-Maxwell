@@ -96,7 +96,7 @@ h1 {
 .connect {
   font-style: normal;
   font-weight: 500;
-  color: #7f8cff;
+  color: #5461d2;
 }
 
 ul {
@@ -195,7 +195,7 @@ ul {
   border-radius: 8px;
   background-color: white;
   padding: 6px;
-  color: #6070ff;
+  color: #505dd5;
   transition: 3ms;
 }
 
@@ -291,6 +291,7 @@ ul {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
+  font-weight: 600;
 }
 
 form {
@@ -319,7 +320,7 @@ form {
   height: 48px;
   width: 140px;
   border-radius: 8px;
-  color: #6070ff;
+  color: #5766ea;
   line-height: 24px;
   font-size: 17px;
   letter-spacing: 3%;
