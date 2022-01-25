@@ -88,15 +88,15 @@ nav a {
   display: none;
 }
 
-nav a:hover {
-  color: #075cfa;
-}
-
 .menu_links a {
   margin: 10px;
   color: white;
   font-weight: 600;
   font-size: 24px;
+}
+
+nav a:hover {
+  color: #075cfa;
 }
 
 #menu {

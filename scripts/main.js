@@ -1,16 +1,20 @@
-"useStrict";
-const hamburger = document.querySelector('#menu');          // Variables
+'useStrict';
+
+// Variables
+const hamburger = document.querySelector('#menu');
 const closeBtn = document.querySelector('#close_icon');
 const menuLinks = document.querySelectorAll('.menu_link');
 const menu = document.querySelector('.menu-space');
 
-let displayMenu = () => {                                   // Functions
-    menu.style.display = "block";
+// Functions
+const displayMenu = () => {
+    menu.style.display = 'block';
 };
-let closeMenu = () => {
-    menu.style.display = "none";
+const closeMenu = () => {
+    menu.style.display = 'none';
 };   
  
-menuLinks.forEach(el => el.addEventListener('click', closeMenu)); // Implementations
+// Implementations
+menuLinks.forEach((el) => el.addEventListener('click', closeMenu));
 hamburger.addEventListener('click', displayMenu);
 closeBtn.addEventListener('click', closeMenu);
