@@ -8,12 +8,12 @@ const menu = document.querySelector('.menu-space');
 
 // Functions
 const displayMenu = () => {
-    menu.style.display = 'block';
+menu.style.display = 'block';
 };
 const closeMenu = () => {
-    menu.style.display = 'none';
-};   
- 
+menu.style.display = 'none';
+};
+
 // Implementations
 menuLinks.forEach((el) => el.addEventListener('click', closeMenu));
 hamburger.addEventListener('click', displayMenu);
