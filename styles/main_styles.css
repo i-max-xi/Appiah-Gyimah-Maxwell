@@ -20,7 +20,6 @@ header {
   color: white;
   opacity: 0.9;
   display: none;
-  /* visibility: hidden; */
 }
 
 #close_icon {
@@ -32,13 +31,6 @@ header {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-}
-
-.menu_links a {
-  margin: 10px;
-  color: white;
-  font-weight: 600px;
-  font-size: 24px;
 }
 
 .logo {
@@ -98,6 +90,13 @@ nav a {
 
 nav a:hover {
   color: #075cfa;
+}
+
+.menu_links a {
+  margin: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 #menu {
