@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link href="styles/main_styles.css" type="text/css" rel="stylesheet" />
+    <script defer src="./scripts/main.js"></script>
     <script
       src="https://kit.fontawesome.com/6a5b34451f.js"
       crossorigin="anonymous"
@@ -32,20 +33,28 @@
     </script>
   </head>
   <body>
+    <div class="menu-space">
+      <div class="fa fa-close" id="close_icon"></div>
+      <div class="menu_links">
+        <a href="#intro" class="menu_link">Portfolio</a>
+        <a href="#about" class="menu_link">About</a>
+        <a href="#contact" class="menu_link">Contact</a>
+      </div>
+    </div>
     <header>
       <div class="logo"><a href="#">My logo</a></div>
       <nav>
         <div class="fa fa-bars" id="menu"></div>
         <div class="links">
-          <a href="#">Portfolio</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="#intro">Portfolio</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
         </div>
       </nav>
     </header>
 
     <section class="hero-section">
-      <h1 class="intro">
+      <h1 class="intro" id="intro">
         I'm Max <br />
         Glad to see you!
       </h1>
@@ -147,7 +156,7 @@
     </section>
 
     <!-- About section -->
-    <section class="about-section">
+    <section class="about-section" id="about">
       <div class="top">
         <h1 class="intro">About Myself</h1>
 
@@ -266,7 +275,7 @@
     </section>
 
     <!-- Contact section -->
-    <footer class="contact">
+    <footer class="contact" id="contact">
       <div>
         <h1>Contact Me</h1>
         <p>

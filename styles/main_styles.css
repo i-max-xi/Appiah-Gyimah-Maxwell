@@ -11,6 +11,36 @@ header {
   margin: 0;
 }
 
+.menu-space {
+  position: absolute;
+  margin: 0;
+  background-color: #6070ff;
+  width: 100vw;
+  height: 80vh;
+  color: white;
+  opacity: 0.9;
+  display: none;
+  /* visibility: hidden; */
+}
+
+#close_icon {
+  float: right;
+  padding: 20px;
+}
+
+.menu_links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.menu_links a {
+  margin: 10px;
+  color: white;
+  font-weight: 600px;
+  font-size: 24px;
+}
+
 .logo {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -70,11 +100,31 @@ nav a:hover {
   color: #075cfa;
 }
 
+#menu {
+  display: block;
+  color: #075cfa;
+  float: right;
+  margin-right: 10px;
+  padding: 3px;
+}
+
 .intro {
   color: #091e42;
   line-height: 35px;
   font-size: 35px;
   width: 210px;
+}
+
+.hero-section {
+  margin-top: 0;
+  border-bottom-left-radius: 25% 45px;
+  background-color: white;
+  background-image: url(../Assets/header-bg-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .interact {
@@ -117,26 +167,6 @@ ul {
 .social span:hover {
   color: #075cfa;
   font-size: 16px;
-}
-
-.hero-section {
-  margin-top: 0;
-  border-bottom-left-radius: 25% 45px;
-  background-color: white;
-  background-image: url(../Assets/header-bg-mobile.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 70px 30px;
-  display: flex;
-  flex-direction: column;
-}
-
-#menu {
-  display: block;
-  color: #075cfa;
-  float: right;
-  margin-right: 10px;
-  padding: 3px;
 }
 
 .social {
@@ -351,6 +381,10 @@ form {
     background-color: white;
     background-size: 100%;
     padding: 160px 100px;
+  }
+
+  .menu-space {
+    visibility: hidden;
   }
 
   .links {
