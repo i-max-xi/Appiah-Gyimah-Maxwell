@@ -33,7 +33,7 @@ const popUp = [
     description: "<p> A Restaurant publicity and order website We take inpiration from the World's best Cuisine to create alipsmacking and satisfying collection<p/>",
     card: '<img src="./Assets/restaurant.JPG" alt="project card display"/>',
     technologies: '<ul class="pale-info-container"><li class="pale-info">html</li><li class="pale-info">Css</li><li class="pale-info">JavaScript</li></ul>',
-    action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>',
+    action: '<button class="see-project" id="popUpBtn1" type="button">See Live<span class="fa fa-external-link"></span></button><button class="see-project" id="popUpBtn2" type="button">See Source<span class="fa fa-github"></span></button>',
   },
 
   {
@@ -41,7 +41,7 @@ const popUp = [
     description: "<p> A clothes advertisment page for classic men's wear<p/>",
     card: '<img src="./Assets/men_fashion_1.PNG" alt="project card display"/>',
     technologies: '<ul class="pale-info-container"><li class="pale-info">html</li><li class="pale-info">Css</li><li class="pale-info">JavaScript</li></ul>',
-    action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>',
+    action: '<button class="see-project" id="popUpBtn1" type="button">See Live<span class="fa fa-external-link"></span></button><button class="see-project" id="popUpBtn2" type="button">See Source<span class="fa fa-github"></span></button>',
   },
 
   {
@@ -49,7 +49,7 @@ const popUp = [
     description: '<p> A sample tertiary level school website.<p/>',
     card: '<img src="./Assets/school_img1.PNG" alt="project card display"/>',
     technologies: '<ul class="pale-info-container"><li class="pale-info">html</li><li class="pale-info">Css</li><li class="pale-info">JavaScript</li></ul>',
-    action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>',
+    action: '<button class="see-project" id="popUpBtn1" type="button">See Live<span class="fa fa-external-link"></span></button><button class="see-project" id="popUpBtn2" type="button">See Source<span class="fa fa-github"></span></button>',
   },
 ];
 
