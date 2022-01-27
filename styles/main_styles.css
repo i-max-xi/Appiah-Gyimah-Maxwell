@@ -139,7 +139,8 @@ nav a:hover {
   user-select: none;
 }
 
-#popUpSpace .fa-github, .fa-external-link{
+#popUpSpace .fa-github,
+.fa-external-link {
   margin: 3px;
   font-size: 16px;
 }
