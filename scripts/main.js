@@ -34,7 +34,7 @@ const popUp = [
     card: '<img src="./Assets/restaurant.JPG" alt="project card display"/>',
     technologies: '<ul class="pale-info-container"><li class="pale-info">html</li><li class="pale-info">Css</li><li class="pale-info">JavaScript</li></ul>',
     action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>',
-},
+  },
 
   {
     title: "<h1>Men's Fashion</h1>",
@@ -45,12 +45,12 @@ const popUp = [
   },
 
   {
-    title: "<h1>JOEJOY INC.</h1>",
-    description: "<p> A sample tertiary level school website.<p/>",
+    title: '<h1>JOEJOY INC.</h1>',
+    description: '<p> A sample tertiary level school website.<p/>',
     card: '<img src="./Assets/school_img1.PNG" alt="project card display"/>',
     technologies: '<ul class="pale-info-container"><li class="pale-info">html</li><li class="pale-info">Css</li><li class="pale-info">JavaScript</li></ul>',
     action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>',
-  } 
+  },
 ];
 
 // Functions
@@ -58,7 +58,7 @@ const popUpDisplay = () => {
   popUpSpace.style.display = 'block';
   blur.forEach((el) => el.classList.add('active'));
   document.querySelector('#popUptitle').innerHTML = popUp[selectedPopUP].title;
-  document.querySelector('#popUpdescription').innerHTML = popUp[selectedPopUP].description; 
+  document.querySelector('#popUpdescription').innerHTML = popUp[selectedPopUP].description;
   document.querySelector('#popUpCard').innerHTML = popUp[selectedPopUP].card;
   document.querySelector('#technologies').innerHTML = popUp[selectedPopUP].technologies;
   document.querySelector('#action').innerHTML = popUp[selectedPopUP].action;
