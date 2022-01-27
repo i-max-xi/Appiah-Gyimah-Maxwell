@@ -26,14 +26,14 @@ menuLinks.forEach((el) => el.addEventListener('click', closeMenu));
 hamburger.addEventListener('click', displayMenu);
 closeBtn.addEventListener('click', closeMenu);
 
-//Pop Up Window
+// Pop Up Window
 const popUp = [
   {
-  title: '<h1>Ristorant Confusion</h1>',
-  description: "<p> A Restaurant publicity and order website We take inpiration from the World's best Cuisine to create alipsmacking and satisfying collection<p/>",
-  card: '<img src="./Assets/restaurant.JPG" alt="project card display"/>',
-  technologies: '<ul class="pale-info-container"><li class="pale-info">html</li><li class="pale-info">Css</li><li class="pale-info">JavaScript</li></ul>',
-  action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>'
+    title: '<h1>Ristorant Confusion</h1>',
+    description: "<p> A Restaurant publicity and order website We take inpiration from the World's best Cuisine to create alipsmacking and satisfying collection<p/>",
+    card: '<img src="./Assets/restaurant.JPG" alt="project card display"/>',
+    technologies: '<ul class="pale-info-container"><li class="pale-info">html</li><li class="pale-info">Css</li><li class="pale-info">JavaScript</li></ul>',
+    action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>',
 },
 
   {
@@ -41,7 +41,7 @@ const popUp = [
     description: "<p> A clothes advertisment page for classic men's wear<p/>",
     card: '<img src="./Assets/men_fashion_1.PNG" alt="project card display"/>',
     technologies: '<ul class="pale-info-container"><li class="pale-info">html</li><li class="pale-info">Css</li><li class="pale-info">JavaScript</li></ul>',
-    action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>'
+    action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>',
   },
 
   {
@@ -49,27 +49,11 @@ const popUp = [
     description: "<p> A sample tertiary level school website.<p/>",
     card: '<img src="./Assets/school_img1.PNG" alt="project card display"/>',
     technologies: '<ul class="pale-info-container"><li class="pale-info">html</li><li class="pale-info">Css</li><li class="pale-info">JavaScript</li></ul>',
-    action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>'
-  }
-  
+    action: '<button class="see-project" id="popUpBtn1" type="button">See Live</button><button class="see-project" id="popUpBtn2" type="button">See Source</button>',
+  } 
 ];
 
 // Functions
-const btn1Display = () => {
-  selectedPopUP = 0;
-  popUpDisplay();
-}
-
-const btn2Display = () => {
-  selectedPopUP = 1;
-  popUpDisplay();
-}
-
-const btn3Display = () => {
-  selectedPopUP = 2;
-  popUpDisplay();
-}
-// main popUp function
 const popUpDisplay = () => {
   popUpSpace.style.display = 'block';
   blur.forEach((el) => el.classList.add('active'));
@@ -78,7 +62,22 @@ const popUpDisplay = () => {
   document.querySelector('#popUpCard').innerHTML = popUp[selectedPopUP].card;
   document.querySelector('#technologies').innerHTML = popUp[selectedPopUP].technologies;
   document.querySelector('#action').innerHTML = popUp[selectedPopUP].action;
-}
+};
+
+const btn1Display = () => {
+  selectedPopUP = 0;
+  popUpDisplay();
+};
+
+const btn2Display = () => {
+  selectedPopUP = 1;
+  popUpDisplay();
+};
+
+const btn3Display = () => {
+  selectedPopUP = 2;
+  popUpDisplay();
+};
 
 const closePopUp = () => {
   popUpSpace.style.display = 'none';
@@ -87,6 +86,6 @@ const closePopUp = () => {
 
 // Implementation
 popUpClose.addEventListener('click', closePopUp);
-document.querySelector('#btn1').addEventListener('click', btn1Display);
-document.querySelector('#btn2').addEventListener('click', btn2Display);
-document.querySelector('#btn3').addEventListener('click', btn3Display);
+btn1.addEventListener('click', btn1Display);
+btn2.addEventListener('click', btn2Display);
+btn3.addEventListener('click', btn3Display);

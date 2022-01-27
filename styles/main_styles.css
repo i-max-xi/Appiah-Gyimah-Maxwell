@@ -22,7 +22,8 @@ header {
   display: none;
 }
 
-#close_icon , #popUpClose {
+#close_icon,
+#popUpClose {
   float: right;
   padding: 20px;
 }
@@ -111,13 +112,10 @@ nav a:hover {
 #popUpSpace {
   display: none;
   width: 80%;
-  display: flex;
-  justify-self: center;
   border-radius: 5px;
   background-color: white;
   padding: 10px;
   margin: 50px 20px;
-  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -133,11 +131,11 @@ nav a:hover {
   width: 100%;
 }
 
-#popUpBtn1, #popUpBtn2 {
+#popUpBtn1,
+#popUpBtn2 {
   margin: 10px;
   padding: 10px;
 }
-
 
 .active {
   filter: blur(20px);
@@ -350,6 +348,10 @@ ul {
   font-weight: 700;
   line-height: 52px;
   text-align: center;
+}
+
+#popUpSpace h1 {
+  font-size: 18px;
 }
 
 .contact p {
