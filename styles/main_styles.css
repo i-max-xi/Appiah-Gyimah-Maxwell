@@ -22,7 +22,8 @@ header {
   display: none;
 }
 
-#close_icon {
+#close_icon,
+#popUpClose {
   float: right;
   padding: 20px;
 }
@@ -106,6 +107,42 @@ nav a:hover {
   margin-right: 10px;
   padding: 3px;
   font-size: 22px;
+}
+
+#popUpSpace {
+  display: none;
+  width: 80%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  margin: 50px 20px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+#popUpSpace img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+#popUpBtn1,
+#popUpBtn2 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+#popUpSpace .fa-github,
+.fa-external-link {
+  margin: 3px;
+  font-size: 16px;
 }
 
 .intro {
@@ -315,6 +352,10 @@ ul {
   text-align: center;
 }
 
+#popUpSpace h1 {
+  font-size: 18px;
+}
+
 .contact p {
   width: 300px;
   color: #ebebff;
@@ -399,6 +440,22 @@ form {
 
   nav a {
     display: block;
+  }
+
+  #popUpSpace {
+    transform: translateX(30%);
+    width: 55%;
+  }
+
+  #popUpBelow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #popUpLast {
+    display: flex;
+    flex-direction: column;
   }
 
   .intro {
