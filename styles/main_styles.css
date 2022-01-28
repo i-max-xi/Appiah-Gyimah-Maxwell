@@ -387,6 +387,14 @@ form {
   padding: 10px;
 }
 
+.error {
+  color: #e30000;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
 .contact .btn {
   height: 48px;
   width: 140px;
