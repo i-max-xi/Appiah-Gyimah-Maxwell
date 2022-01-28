@@ -14,9 +14,9 @@ const btn3 = document.querySelector('#btn3');
 const Caps = /[A-Z]/;
 const formSpace = document.querySelector('form');
 const formError = document.querySelector('#errorMessage');
-const Useremail = document.querySelector('#email');
-const Username = document.querySelector('#name');
-const Usermessage = document.querySelector('#message');
+let Useremail = document.querySelector('#email');
+let Username = document.querySelector('#name');
+let Usermessage = document.querySelector('#message');
 let selectedPopUP = 0;
 
 // Functions
@@ -107,6 +107,7 @@ formSpace.addEventListener('submit', (event) => {
 });
 
 //Local Storage
+
 formSpace.addEventListener('input', () => {
   const collectedInput = {
     name: Username.value,
@@ -115,7 +116,7 @@ formSpace.addEventListener('input', () => {
   };
 
   localStorage.setItem('collectedInput', JSON.stringify(collectedInput));
-})
+});
 
 const collectedInputRetrive = JSON.parse(localStorage.getItem('collectedInput'));
 Username.value = collectedInputRetrive.name;
