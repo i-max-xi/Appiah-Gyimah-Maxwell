@@ -118,6 +118,10 @@ formSpace.addEventListener('input', () => {
 });
 
 const collectedInputRetrive = JSON.parse(localStorage.getItem('collectedInput'));
-Username.value = collectedInputRetrive.name;
-Useremail.value = collectedInputRetrive.email;
-Usermessage.value = collectedInputRetrive.message;
+window.onload = () => {
+  if (collectedInput) {
+    Username.value = collectedInputRetrive.name;
+    Useremail.value = collectedInputRetrive.email;
+    Usermessage.value = collectedInputRetrive.message;
+  }
+}
