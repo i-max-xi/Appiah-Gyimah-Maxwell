@@ -12,9 +12,11 @@ const btn1 = document.querySelector('#btn1');
 const btn2 = document.querySelector('#btn2');
 const btn3 = document.querySelector('#btn3');
 const Caps = /[A-Z]/;
-const email = document.querySelector('#email');
 const formSpace = document.querySelector('form');
-const formError = document.querySelector('#errorMessage'); 
+const formError = document.querySelector('#errorMessage');
+const Useremail = document.querySelector('#email');
+const Username = document.querySelector('#name');
+const Usermessage = document.querySelector('#message');
 let selectedPopUP = 0;
 
 // Functions
@@ -96,11 +98,28 @@ btn3.addEventListener('click', btn3Display);
 
 // Validate forms
 formSpace.addEventListener('submit', (event) => {
-  if(Caps.test(email.value)){
+  if (Caps.test(email.value)) {
     event.preventDefault();
     formError.innerHTML = 'Email must not contain capital letters....!';
   }
-  else{
+  else {
     formError.innerHTML = '';
   }
 });
+
+//Local Storage
+formSpace.addEventListener('input', () => {
+  const collectedInput = {
+    name: Username.value,
+    email: Useremail.value,
+    message: Usermessage.value,
+  }
+
+  localStorage.setItem('collectedInput', JSON.stringify(collectedInput));
+})
+
+const collectedInputRetrive = JSON.parse(localStorage.getItem('collectedInput'));
+Username.value = collectedInputRetrive.name;
+Useremail.value = collectedInputRetrive.email;
+Usermessage = collectedInputRetrive.message;
+
