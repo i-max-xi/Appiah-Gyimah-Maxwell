@@ -14,8 +14,8 @@ const btn3 = document.querySelector('#btn3');
 const Caps = /[A-Z]/;
 const formSpace = document.querySelector('form');
 const formError = document.querySelector('#errorMessage');
-let Useremail = document.querySelector('#email');
-let Username = document.querySelector('#name');
+const Useremail = document.querySelector('#email');
+const Username = document.querySelector('#name');
 let Usermessage = document.querySelector('#message');
 let selectedPopUP = 0;
 
@@ -106,8 +106,7 @@ formSpace.addEventListener('submit', (event) => {
   }
 });
 
-//Local Storage
-
+// Local Storage
 formSpace.addEventListener('input', () => {
   const collectedInput = {
     name: Username.value,
