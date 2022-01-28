@@ -16,7 +16,7 @@ const formSpace = document.querySelector('form');
 const formError = document.querySelector('#errorMessage');
 const Useremail = document.querySelector('#email');
 const Username = document.querySelector('#name');
-let Usermessage = document.querySelector('#message');
+const Usermessage = document.querySelector('#message');
 let selectedPopUP = 0;
 
 // Functions
@@ -118,6 +118,10 @@ formSpace.addEventListener('input', () => {
 });
 
 const collectedInputRetrive = JSON.parse(localStorage.getItem('collectedInput'));
-Username.value = collectedInputRetrive.name;
-Useremail.value = collectedInputRetrive.email;
-Usermessage = collectedInputRetrive.message;
+window.onload = () => {
+  if (collectedInput) {
+    Username.value = collectedInputRetrive.name;
+    Useremail.value = collectedInputRetrive.email;
+    Usermessage.value = collectedInputRetrive.message;
+  }
+}
