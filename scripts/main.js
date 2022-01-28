@@ -11,6 +11,10 @@ const menu = document.querySelector('.menu-space');
 const btn1 = document.querySelector('#btn1');
 const btn2 = document.querySelector('#btn2');
 const btn3 = document.querySelector('#btn3');
+const Caps = /[A-Z]/;
+const email = document.querySelector('#email');
+const formSpace = document.querySelector('form');
+const formError = document.querySelector('#errorMessage'); 
 let selectedPopUP = 0;
 
 // Functions
@@ -89,3 +93,14 @@ popUpClose.addEventListener('click', closePopUp);
 btn1.addEventListener('click', btn1Display);
 btn2.addEventListener('click', btn2Display);
 btn3.addEventListener('click', btn3Display);
+
+// Validate forms
+formSpace.addEventListener('submit', (event) => {
+  if(Caps.test(email.value)){
+    event.preventDefault();
+    formError.innerHTML = 'Email must not contain capital letters....!';
+  }
+  else{
+    formError.innerHTML = '';
+  }
+});
