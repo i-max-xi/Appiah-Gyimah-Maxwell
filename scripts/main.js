@@ -15,8 +15,8 @@ const Caps = /[A-Z]/;
 const formSpace = document.querySelector('form');
 const formError = document.querySelector('#errorMessage');
 const Useremail = document.querySelector('#email');
-const Username = document.querySelector('#name');
-const Usermessage = document.querySelector('#message');
+const Username = document.querySelector('name');
+const Usermessage = document.querySelector('message');
 let selectedPopUP = 0;
 
 // Functions
