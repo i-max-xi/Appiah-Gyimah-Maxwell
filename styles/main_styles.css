@@ -38,44 +38,15 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  color: #6070ff;
   float: left;
   padding: 3px;
-  animation-name: rotate;
-  -webkit-animation-name: rotate;
-  -moz-animation-name: rotate;
-  animation-duration: 4s;
-  rotate: 0deg;
 }
 
-@keyframes rotate {
-  0% {
-    rotate: 0deg;
-  }
-
-  100% {
-    rotate: 360deg;
-  }
-}
-
-@-moz-keyframes rotate {
-  0% {
-    rotate: 0deg;
-  }
-
-  100% {
-    rotate: 360deg;
-  }
-}
-
-@-webkit-keyframes rotate {
-  0% {
-    rotate: 0deg;
-  }
-
-  100% {
-    rotate: 360deg;
-  }
+.logo a {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background-color: #6070ff;
 }
 
 a {
@@ -111,6 +82,7 @@ nav a:hover {
 
 #popUpSpace {
   display: none;
+  border: 1px solid rgb(104, 103, 103);
   width: 80%;
   border-radius: 5px;
   background-color: white;
@@ -492,6 +464,7 @@ form {
 
   .work-item img:hover {
     transform: scale(1.03);
+    box-shadow: 1px 1px 1px 1px rgb(136, 135, 135);
   }
 
   button:hover {
