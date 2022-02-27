@@ -4,6 +4,23 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.fa-angle-up {
+  display: none;
+}
+
+.scrollActive {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  border-radius: 40%;
+  background-color:#075cfa ;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  transition: 0.5s;
+  display: block;
+}
+
 header {
   height: 72px;
   padding-top: 15px;
@@ -360,9 +377,8 @@ form {
 }
 
 .error {
-  color: #e30000;
-  background-color: white;
-  border-radius: 8px;
+  margin-top: 10px;
+  color: #000000;
   font-size: 13px;
   font-weight: 600;
 }
@@ -476,7 +492,8 @@ form {
   .btn:hover {
     width: 144px;
     height: 50px;
-    transition: 300ms;
+    transition: 250ms ease-out;
+    border: 1px solid black;
   }
 
   .skill-item ul {

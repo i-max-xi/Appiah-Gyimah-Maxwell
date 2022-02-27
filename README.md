@@ -15,23 +15,21 @@ The project showcases previous projects with links to visit and explore its awes
 Libraries auch as Bootstrap may be used.
 
 ## Live Demo
-[Portfolio web](https://i-max-xi.github.io/Updated-Official-Portfolio/)
+[Portfolio web](https://i-max-xi.github.io/Appiah-Gyimah-Maxwell/)
 
 Quick note: Deployment is rooted to the master branch hence unmerged changes may not show.
 
 👤 **Author1** 
   - linkedIn: https://www.linkedin.com/in/appiah-maxwell-0212b41a1/
   - GitHub: https://github.com/i-max-xi
+  - Instagram: 
 
-👤 **Author2**
-  - linkedIn: https://www.linkedin.com/in/lynette-acholah/
-  - GitHub: https://twitter.com/acholah_lynette
 
 ## Show your support
 Give a ⭐️ if you like this project!
 
 ## Acknowledgement:
-   - Big thanks to Microverse and to my awesome partner.
+   - Big thanks to Microverse.
    - Hat tip to W3css and every website that trained me to code.
    - etc.
 

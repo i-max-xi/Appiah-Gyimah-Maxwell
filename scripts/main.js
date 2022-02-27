@@ -32,6 +32,24 @@ menuLinks.forEach((el) => el.addEventListener('click', closeMenu));
 hamburger.addEventListener('click', displayMenu);
 closeBtn.addEventListener('click', closeMenu);
 
+//Scroll to top
+window.addEventListener('scroll', () => {
+  var scroll = document.querySelector('.fa-angle-up');
+  if (window.scrollY > 500){
+  scroll.classList.add('scrollActive');
+  }
+  else {
+    scroll.classList.remove('scrollActive');
+  }
+})
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0 ,
+    behavior : 'smooth'
+  })
+}
+
 // Pop Up Window
 const popUp = [
   {
@@ -119,7 +137,7 @@ formSpace.addEventListener('input', () => {
 
 const collectedInputRetrive = JSON.parse(localStorage.getItem('collectedInput'));
 window.onload = () => {
-  if (collectedInput) {
+  if (collectedInputRetrive != null) {
     Username.value = collectedInputRetrive.name;
     Useremail.value = collectedInputRetrive.email;
     Usermessage.value = collectedInputRetrive.message;
