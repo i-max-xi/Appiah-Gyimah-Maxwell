@@ -11,6 +11,13 @@
       src="https://kit.fontawesome.com/6a5b34451f.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Google font import -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -101,7 +108,7 @@
       </div>
     </section>
     <section class="works-container">
-      <div class="work-item">
+      <div class="work-item" data-aos="fade-in" data-aos-duration="1000">
         <img
           class="work-card"
           src="./Assets/restaurant.JPG"
@@ -128,7 +135,7 @@
       </div>
 
       <!-- card no. 2 -->
-      <div class="work-item">
+      <div class="work-item" data-aos="fade-in" data-aos-duration="1000">
         <img
           class="work-card"
           src="./Assets/men_fashion_1.PNG"
@@ -153,7 +160,7 @@
       </div>
 
       <!-- card no. 3 -->
-      <div class="work-item">
+      <div class="work-item" data-aos="fade-in" data-aos-duration="1000">
         <img
           class="work-card"
           src="./Assets/school_img1.PNG"
@@ -168,14 +175,14 @@
             <li class="pale-info">JavaScript</li>
           </ul>
           <div class="action">
-            <button class="see-project" id="btn3" type="button">Project</button>
+            <button class="see-project" id="btn3" type="button">See Project</button>
           </div>
         </div>
       </div>
     </section>
 
     <!-- About section -->
-    <section class="about-section" id="about">
+    <section class="about-section" id="about" data-aos="fade-up" data-aos-duration="1000">
       <div class="top">
         <h1 class="intro">About Myself</h1>
 
@@ -294,7 +301,7 @@
     </section>
 
     <!-- Contact section -->
-    <footer class="contact" id="contact">
+    <footer class="contact" id="contact" data-aos="fade-in" data-aos-duration="1000">
       <div>
         <h1>Contact Me</h1>
         <p>
@@ -349,5 +356,9 @@
       />
     </footer>
     <span class="fa fa-angle-up" onclick="scrollToTop();"></span>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
