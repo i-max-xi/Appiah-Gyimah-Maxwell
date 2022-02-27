@@ -5,7 +5,9 @@ body {
 }
 
 .fa-angle-up {
+  all: unset;
   display: none;
+  visibility: hidden;
 }
 
 .scrollActive {
@@ -18,7 +20,8 @@ body {
   padding: 10px 12px;
   text-align: center;
   transition: 0.5s;
-  display: block;
+  display: inline;
+  visibility: visible;
 }
 
 header {
