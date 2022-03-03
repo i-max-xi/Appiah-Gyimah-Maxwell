@@ -15,7 +15,7 @@ body {
   bottom: 50px;
   right: 20px;
   border-radius: 40%;
-  background-color:#075cfa ;
+  background-color: #075cfa;
   color: white;
   padding: 10px 12px;
   text-align: center;
@@ -62,13 +62,6 @@ header {
   padding: 3px;
 }
 
-.logo a {
-  color: white;
-  padding: 10px 15px;
-  border-radius: 50px;
-  background-color: #6070ff;
-}
-
 a {
   text-decoration: none;
 }
@@ -78,6 +71,13 @@ nav a {
   text-decoration: none;
   margin: 9px;
   display: none;
+}
+
+.logo a {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background-color: #6070ff;
 }
 
 .menu_links a {
@@ -381,7 +381,7 @@ form {
 
 .error {
   margin-top: 10px;
-  color: #000000;
+  color: #f80000;
   font-size: 13px;
   font-weight: 600;
 }
