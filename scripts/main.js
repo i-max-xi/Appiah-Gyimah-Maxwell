@@ -58,7 +58,7 @@ const popUp = [
     card: `<img src='./Assets/restaurant.JPG' alt='project card display'/>`,
     technologies:
       `<ul class='pale-info-container'><li class='pale-info'>html</li><li class='pale-info'>Css</li><li class='pale-info'>JavaScript</li></ul>`,
-    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://i-max-xi.github.io/Restaurant-site/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button'>See Source<span class='fa fa-github'></span></button>`,
+    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://ristaurantconfusion.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button'>See Source<span class='fa fa-github'></span></button>`,
   },
 
   {
