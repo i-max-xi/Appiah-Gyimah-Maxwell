@@ -467,7 +467,7 @@ form {
     margin: 60px 40px;
   }
 
-  .work-item:nth-child(2) {
+  .work-item:nth-child(odd) {
     flex-direction: row-reverse;
   }
 
@@ -476,7 +476,7 @@ form {
     margin-right: 20px;
   }
 
-  .work-item:nth-child(2) .work-card {
+  .work-item:nth-child(odd) .work-card {
     margin-left: 20px;
     margin-right: 1px;
   }
