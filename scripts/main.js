@@ -52,39 +52,109 @@ const scrollToTop = () => {
 };
 
 // Pop Up Window
+// const popUp = [
+//   {
+//     title: `<h1>Ristorant Confusion</h1>`,
+//     description: `<p> A Restaurant publicity and order website We take inpiration from the World's best Cuisine to create alipsmacking and satisfying collection<p/>`,
+//     card: `<img src='./Assets/restaurant.JPG' alt='project card display'/>`,
+//     technologies: `<ul class='pale-info-container'><li class='pale-info'>html</li><li class='pale-info'>Css</li><li class='pale-info'>JavaScript</li></ul>`,
+//     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://ristaurantconfusion.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Restaurant-site')">See Source<span class='fa fa-github'></span></button>`,
+//   },
+
+//   {
+//     title: `<h1>Movies 2 watch</h1>`,
+//     description: `<p> A Movie ratings app which provides in-depth information about each movie and allows users to give their views on the movie<p/>`,
+//     card: `<img src='./Assets/movies-2-watch.png' alt='project card display'/>`,
+//     technologies: `<ul class='pale-info-container'><li class='pale-info'>html</li><li class='pale-info'>Css</li><li class='pale-info'>JavaScript</li></ul>`,
+//     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://saied2035.github.io/movie-app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/saied2035/movie-app')">See Source<span class='fa fa-github'></span></button>`,
+//   },
+
+//   {
+//     title: `<h1>LeaderBoard</h1>`,
+//     description: `<p> The leaderboard website allows users to submit their score. All data is preserved thanks to the external Leaderboard API service.<p/>`,
+//     card: `<img src='./Assets/leader-board.JPG' alt='project card display'/>`,
+//     technologies: `<ul class='pale-info-container'><li class='pale-info'>html</li><li class='pale-info'>Css</li><li class='pale-info'>JavaScript</li></ul>`,
+//     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://i-max-xi.github.io/LeaderBoard/dist/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/LeaderBoard')">See Source<span class='fa fa-github'></span></button>`,
+//   },
+
+//   {
+//     title: `<h1>Stuff 'n' Random</h1>`,
+//     description: `<p> A resource library to provide basic things and skills that come in handy in the digital world<p/>`,
+//     card: `<img src='./Assets/stuffnrandom.JPG' alt='project card display'/>`,
+//     technologies: `<ul class='pale-info-container'><li class='pale-info'>html</li><li class='pale-info'>Css</li><li class='pale-info'>JavaScript</li></ul>`,
+//     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://stuffnrandomofficial.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Youtube-Resource-Page.')">See Source<span class='fa fa-github'></span></button>`,
+//   },
+// ];
+
 const popUp = [
   {
     title: `<h1>Ristorant Confusion</h1>`,
-    description: `<p> A Restaurant publicity and order website We take inpiration from the World's best Cuisine to create alipsmacking and satisfying collection<p/>`,
-    card: `<img src='./Assets/restaurant.JPG' alt='project card display'/>`,
+    description: "A Restaurant publicity and order website We take inpiration from the World's best Cuisine to create alipsmacking and satisfying collection",
+    card: './Assets/restaurant.JPG',
     technologies: `<ul class='pale-info-container'><li class='pale-info'>html</li><li class='pale-info'>Css</li><li class='pale-info'>JavaScript</li></ul>`,
     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://ristaurantconfusion.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Restaurant-site')">See Source<span class='fa fa-github'></span></button>`,
   },
 
   {
     title: `<h1>Movies 2 watch</h1>`,
-    description: `<p> A Movie ratings app which provides in-depth information about each movie and allows users to give their views on the movie<p/>`,
-    card: `<img src='./Assets/movies-2-watch.png' alt='project card display'/>`,
+    description: "A Movie ratings app which provides in-depth information about each movie and allows users to give their views on the movie",
+    card: './Assets/movies-2-watch.png',
     technologies: `<ul class='pale-info-container'><li class='pale-info'>html</li><li class='pale-info'>Css</li><li class='pale-info'>JavaScript</li></ul>`,
     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://saied2035.github.io/movie-app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/saied2035/movie-app')">See Source<span class='fa fa-github'></span></button>`,
   },
 
   {
     title: `<h1>LeaderBoard</h1>`,
-    description: `<p> The leaderboard website allows users to submit their score. All data is preserved thanks to the external Leaderboard API service.<p/>`,
-    card: `<img src='./Assets/leader-board.JPG' alt='project card display'/>`,
+    description: "The leaderboard website allows users to submit their score. All data is preserved thanks to the external Leaderboard API service.",
+    card: './Assets/leader-board.JPG',
     technologies: `<ul class='pale-info-container'><li class='pale-info'>html</li><li class='pale-info'>Css</li><li class='pale-info'>JavaScript</li></ul>`,
     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://i-max-xi.github.io/LeaderBoard/dist/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/LeaderBoard')">See Source<span class='fa fa-github'></span></button>`,
   },
 
   {
     title: `<h1>Stuff 'n' Random</h1>`,
-    description: `<p> A resource library to provide basic things and skills that come in handy in the digital world<p/>`,
-    card: `<img src='./Assets/stuffnrandom.JPG' alt='project card display'/>`,
+    description: "A resource library to provide basic things and skills that come in handy in the digital world",
+    card: './Assets/stuffnrandom.JPG',
     technologies: `<ul class='pale-info-container'><li class='pale-info'>html</li><li class='pale-info'>Css</li><li class='pale-info'>JavaScript</li></ul>`,
     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://stuffnrandomofficial.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Youtube-Resource-Page.')">See Source<span class='fa fa-github'></span></button>`,
   },
 ];
+
+
+
+//inject projects on load
+const projectSection = document.querySelector('#new');
+
+const createProjects = (project) => {
+  const mainDIV = document.createElement('div');
+  mainDIV.className = "work-item";
+  const img = document.createElement('img');
+  img.src = project.card;
+  img.alt = "project image";
+
+  const miniDIV = document.createElement('div');
+  miniDIV.classList.add('description-container');
+  const para = document.createElement('p');
+  para.innerHTML =  project.description;
+  para.classList.add('description');
+  miniDIV.appendChild(para);
+  
+  img.classList.add('work-card');
+
+  //append
+  mainDIV.appendChild(img);
+  mainDIV.appendChild(miniDIV);
+  projectSection.appendChild(mainDIV);
+}
+  const displayProjects = () => {
+    popUp.forEach((project) => (
+      createProjects(project)
+      ))
+  };
+
+  displayProjects();
+  
+
 
 // Functions
 const popUpDisplay = () => {
@@ -130,6 +200,7 @@ btn1.addEventListener("click", btn1Display);
 btn2.addEventListener("click", btn2Display);
 btn3.addEventListener("click", btn3Display);
 btn4.addEventListener("click", btn4Display);
+
 
 // Validate forms
 formSpace.addEventListener("submit", (event) => {
