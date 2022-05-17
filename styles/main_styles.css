@@ -224,18 +224,16 @@ ul {
 .pale-info-container {
   display: flex;
   flex-direction: row;
-  transform: translateX(-42px);
 }
 
-.pale-info {
-  align-items: center;
+.pale-info-container > li {
+  list-style-type: none;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
+  margin-right: 10px;
   color: rgb(64, 64, 192);
   font-size: 12px;
-  width: fit-content;
-  margin-right: 6px;
 }
 
 .action {
@@ -465,6 +463,7 @@ form {
     display: flex;
     flex-direction: row;
     margin: 60px 40px;
+    line-height: 22px;
   }
 
   .work-item:nth-child(odd) {
