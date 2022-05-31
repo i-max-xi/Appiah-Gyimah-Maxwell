@@ -32,7 +32,7 @@ closeBtn.addEventListener('click', closeMenu);
 
 //Scroll to top
 window.addEventListener('scroll', () => {
-  var scroll = document.querySelector('.fa-angle-up');
+  const scroll = document.querySelector('.fa-angle-up');
   if (window.scrollY > 500) {
     scroll.classList.add('scrollActive');
   } else {
