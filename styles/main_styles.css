@@ -224,6 +224,9 @@ ul {
 .pale-info-container {
   display: flex;
   flex-direction: row;
+}
+
+.pop-up-ul{
   transform: translateX(-42px);
 }
 
