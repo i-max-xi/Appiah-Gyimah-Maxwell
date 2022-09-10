@@ -32,14 +32,13 @@ header {
 }
 
 .menu-space {
-  position: absolute;
+  position: fixed;
   top: 0.8rem;
   right: 1.8rem;
   display: none;
   background-color: #6070ff;
   color: white;
   border-radius: 1rem;
-  transition: all 1s ease-out;
 }
 
 /* #close_icon, */
@@ -86,10 +85,9 @@ nav a:hover {
 }
 
 #menu {
-  display: block;
+  position: fixed;
+  right: 0.6rem;
   color: #075cfa;
-  float: right;
-  margin-right: 10px;
   font-size: 22px;
 }
 

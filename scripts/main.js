@@ -20,12 +20,10 @@ let selectedPopUP = 0;
 const handleNav = () => {
   if(menu.style.display == 'flex'){
     menu.style.display = 'none';
-    menu.style.right = '1.8rem';
     hamburger.className="fa fa-bars";
   }
   else {
     menu.style.display = 'flex';
-    menu.style.right = '2rem';
     hamburger.className="fa fa-close";
   }
 };
