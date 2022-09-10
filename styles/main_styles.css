@@ -33,25 +33,26 @@ header {
 
 .menu-space {
   position: absolute;
-  margin: 0;
-  background-color: #6070ff;
-  width: 100vw;
-  height: 80vh;
-  color: white;
-  opacity: 0.9;
+  top: 0.8rem;
+  right: 1.8rem;
   display: none;
+  background-color: #6070ff;
+  color: white;
+  border-radius: 1rem;
+  transition: all 1s ease-out;
 }
 
-#close_icon,
+/* #close_icon, */
 #popUpClose {
   float: right;
   padding: 20px;
 }
 
-.menu_links {
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
+.menu-space a {
+  margin: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
 }
 
 .logo {
@@ -80,13 +81,6 @@ nav a {
   background-color: #6070ff;
 }
 
-.menu_links a {
-  margin: 10px;
-  color: white;
-  font-weight: 600;
-  font-size: 24px;
-}
-
 nav a:hover {
   color: #075cfa;
 }
@@ -96,7 +90,6 @@ nav a:hover {
   color: #075cfa;
   float: right;
   margin-right: 10px;
-  padding: 3px;
   font-size: 22px;
 }
 
