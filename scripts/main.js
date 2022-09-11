@@ -98,6 +98,9 @@ const projectSection = document.querySelector('#new');
 const createProjects = (project) => {
   const mainDIV = document.createElement('div');
   mainDIV.className = 'work-item';
+  mainDIV.dataset.aos='fade-up';
+  mainDIV.dataset.aosDuration = '1000';
+  console.log(mainDIV);
 
   // create img element
   const img = document.createElement('img');
