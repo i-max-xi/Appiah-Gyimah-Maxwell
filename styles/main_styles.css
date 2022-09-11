@@ -1,7 +1,7 @@
 body {
   background-color: #e5e5e5;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .fa-angle-up {
@@ -32,26 +32,19 @@ header {
 }
 
 .menu-space {
-  position: absolute;
-  margin: 0;
-  background-color: #6070ff;
-  width: 100vw;
-  height: 80vh;
-  color: white;
-  opacity: 0.9;
+  position: fixed;
+  top: 0.8rem;
+  right: 1.8rem;
   display: none;
+  background-color: #6070ff;
+  color: white;
+  border-radius: 1rem;
 }
 
-#close_icon,
+/* #close_icon, */
 #popUpClose {
   float: right;
   padding: 20px;
-}
-
-.menu_links {
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
 }
 
 .logo {
@@ -80,11 +73,12 @@ nav a {
   background-color: #6070ff;
 }
 
-.menu_links a {
+/* here due to linters */
+.menu-space a {
   margin: 10px;
   color: white;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 0.8rem;
 }
 
 nav a:hover {
@@ -92,11 +86,9 @@ nav a:hover {
 }
 
 #menu {
-  display: block;
+  position: fixed;
+  right: 0.6rem;
   color: #075cfa;
-  float: right;
-  margin-right: 10px;
-  padding: 3px;
   font-size: 22px;
 }
 
@@ -163,7 +155,7 @@ nav a:hover {
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
@@ -224,18 +216,20 @@ ul {
 .pale-info-container {
   display: flex;
   flex-direction: row;
+}
+
+.pop-up-ul {
   transform: translateX(-42px);
 }
 
-.pale-info {
-  align-items: center;
+.pale-info-container > li {
+  list-style-type: none;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
+  margin-right: 10px;
   color: rgb(64, 64, 192);
   font-size: 12px;
-  width: fit-content;
-  margin-right: 6px;
 }
 
 .action {
@@ -259,7 +253,7 @@ ul {
 }
 
 .about-section {
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   background-color: white;
   border-top-right-radius: 25% 45px;
   padding: 70px 24px;
@@ -465,9 +459,10 @@ form {
     display: flex;
     flex-direction: row;
     margin: 60px 40px;
+    line-height: 22px;
   }
 
-  .work-item:nth-child(2) {
+  .work-item:nth-child(odd) {
     flex-direction: row-reverse;
   }
 
@@ -476,7 +471,7 @@ form {
     margin-right: 20px;
   }
 
-  .work-item:nth-child(2) .work-card {
+  .work-item:nth-child(odd) .work-card {
     margin-left: 20px;
     margin-right: 1px;
   }
