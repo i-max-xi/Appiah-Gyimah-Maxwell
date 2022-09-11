@@ -1,3 +1,4 @@
+/*eslint-disable*/
 'useStrict';
 
 // Variables
@@ -18,13 +19,12 @@ let selectedPopUP = 0;
 
 // Functions
 const handleNav = () => {
-  if(menu.style.display == 'flex'){
+  if (menu.style.display == 'flex') {
     menu.style.display = 'none';
-    hamburger.className="fa fa-bars";
-  }
-  else {
+    hamburger.className = 'fa fa-bars';
+  } else {
     menu.style.display = 'flex';
-    hamburger.className="fa fa-close";
+    hamburger.className = 'fa fa-close';
   }
 };
 
@@ -49,12 +49,11 @@ const scrollToTop = () => {
   });
 };
 
-
 const popUp = [
   {
     title: `Ristorant Confusion`,
     description:
-      "A Restaurant publicity and order website. <br> We take inpiration from the World's best Cuisine to create a lipsmacking and satisfying collection",
+      `A Restaurant publicity and order website. <br> We take inpiration from the World's best Cuisine to create a lipsmacking and satisfying collection`,
     card: './Assets/restaurant.JPG',
     technologies: `<ul class='pale-info-container pop-up-ul'><li>html</li><li>Css</li><li>JavaScript</li></ul>`,
     action: `<button class='see-project' id='popUpBtn1' type='button' onclick='window.open('https://ristaurantconfusion.netlify.app/')'>See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick='window.open('https://github.com/i-max-xi/Restaurant-site')'>See Source<span class='fa fa-github'></span></button>`,
@@ -98,9 +97,8 @@ const projectSection = document.querySelector('#new');
 const createProjects = (project) => {
   const mainDIV = document.createElement('div');
   mainDIV.className = 'work-item';
-  mainDIV.dataset.aos='fade-up';
+  mainDIV.dataset.aos = 'fade-up';
   mainDIV.dataset.aosDuration = '1000';
-  console.log(mainDIV);
 
   // create img element
   const img = document.createElement('img');
@@ -146,7 +144,6 @@ const btn1 = document.querySelector('#btn1');
 const btn2 = document.querySelector('#btn2');
 const btn3 = document.querySelector('#btn3');
 const btn4 = document.querySelector('#btn4');
-
 
 // Functions
 const popUpDisplay = () => {

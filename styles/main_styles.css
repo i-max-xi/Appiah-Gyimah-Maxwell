@@ -1,7 +1,7 @@
 body {
   background-color: #e5e5e5;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .fa-angle-up {
@@ -155,7 +155,7 @@ nav a:hover {
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
@@ -253,7 +253,7 @@ ul {
 }
 
 .about-section {
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   background-color: white;
   border-top-right-radius: 25% 45px;
   padding: 70px 24px;
