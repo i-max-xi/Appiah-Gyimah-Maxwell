@@ -224,12 +224,12 @@ ul {
 
 .pale-info-container > li {
   list-style-type: none;
-  padding: 4px 12px;
+  padding: 2px 10px;
   background: #ebebff;
   border-radius: 8px;
   margin-right: 10px;
   color: rgb(64, 64, 192);
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .action {
