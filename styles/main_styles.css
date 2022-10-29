@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #e5e5e5;
   margin: 0;
@@ -278,6 +282,7 @@ ul {
 .skill-headline .icon {
   margin-top: 22px;
   width: 20px;
+  cursor: pointer;
 }
 
 .skill-item ul {
@@ -286,6 +291,8 @@ ul {
   font-size: 15px;
   color: #253858;
   padding-left: 0.1px;
+  transform: translateY(0px);
+  transition: all 1s ease-in-out;
 }
 
 .skill-item ul li {

@@ -8,6 +8,8 @@ const menu = document.querySelector('.menu-space');
 const popUpClose = document.querySelector('#popUpClose');
 const popUpSpace = document.querySelector('#popUpSpace');
 const blur = document.querySelectorAll('section');
+const skillbtn = document.querySelector('#icon1');
+const skillSet = document.querySelector('.skill-item ul');
 
 const Caps = /[A-Z]/;
 const formSpace = document.querySelector('form');
@@ -16,6 +18,26 @@ const Useremail = document.querySelector('#email');
 const Username = document.querySelector('#name');
 const Usermessage = document.querySelector('#message');
 let selectedPopUP = 0;
+
+
+
+// skill show and hide
+const handleToggle = () => {
+    if(skillSet.style.display === 'grid'){
+      skillSet.style.display = 'none';
+      skillbtn.src = './Assets/dropright-icon.png';
+    }
+    else {
+      skillSet.style.display = 'grid';
+      skillbtn.src = './Assets/dropdown-icon.png';
+    }
+}
+
+skillbtn.addEventListener('click', handleToggle)
+// console.log(skillbtn[1]);
+// skillbtn.forEach((e) => {
+//   e.addEventListener('click', (btnid) => handleToggle(btnid))
+// })
 
 // Functions
 const handleNav = () => {
