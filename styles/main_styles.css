@@ -166,7 +166,7 @@ nav a:hover {
   padding: 2rem;
 }
 
-.hero-section > div > img {
+.hero-section > img {
   width: 50%;
 }
 
@@ -309,7 +309,6 @@ ul {
   font-size: 15px;
   color: #253858;
   padding-left: 0.1px;
-  transform: translateY(0px);
   transition: all 1s ease-in-out;
 }
 
@@ -376,7 +375,6 @@ ul {
   color: #ebebff;
   font-size: 20px;
   line-height: 28px;
-  /* font-weight: 600; */
 }
 
 form {

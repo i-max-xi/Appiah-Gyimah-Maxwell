@@ -79,7 +79,7 @@ const popUp = [
     card: './Assets/bookWorm.jpg',
     technologies: `<ul class='pale-info-container pop-up-ul'><li>React</li><li>Redux</li><li>REST API</li></ul>`,
     action: `<button class='see-project' id='popUpBtn1' type='button' onclick='window.open('https://the-bookworm.netlify.app/')'>See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick='window.open('https://github.com/i-max-xi/Book-Worm')'>See Source<span class='fa fa-github'></span></button>`,
-    seeProject: `<button class='see-project' id='btn4' type='button'>See Project</button>`,
+    seeProject: `<button class='see-project' id='btn1' type='button'>See Project</button>`,
   },
 
   {
