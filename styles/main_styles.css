@@ -114,10 +114,7 @@ nav a:hover {
   top: 0;
 }
 
-#popUpSpace img {
-  border-radius: 8px;
-  width: 100%;
-}
+/* #popUpSpace img sent below per stylelint */
 
 #popUpBtn1,
 #popUpBtn2 {
@@ -148,9 +145,6 @@ nav a:hover {
   margin-top: 0;
   border-bottom-left-radius: 25% 45px;
   background-color: white;
-  /* background-image: url(../Assets/header-bg-mobile.png); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
   padding: 70px 30px;
   display: flex;
   flex-direction: column;
@@ -168,6 +162,11 @@ nav a:hover {
 
 .hero-section > img {
   width: 50%;
+}
+
+#popUpSpace img {
+  border-radius: 8px;
+  width: 100%;
 }
 
 .interact {
