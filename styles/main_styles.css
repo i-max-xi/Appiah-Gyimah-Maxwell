@@ -68,6 +68,7 @@ nav a {
   text-decoration: none;
   margin: 9px;
   display: none;
+  transition: 1s ease-in;
 }
 
 .logo a {
@@ -86,12 +87,15 @@ nav a {
 }
 
 nav a:hover {
-  color: #075cfa;
+  /* color: #075cfa; */
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #075cfa;
 }
 
 #menu {
-  position: fixed;
-  right: 0.6rem;
+  float: right;
+  padding-right: 0.6rem;
   color: #075cfa;
   font-size: 22px;
 }
@@ -144,12 +148,26 @@ nav a:hover {
   margin-top: 0;
   border-bottom-left-radius: 25% 45px;
   background-color: white;
-  background-image: url(../Assets/header-bg-mobile.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-image: url(../Assets/header-bg-mobile.png); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
   padding: 70px 30px;
   display: flex;
   flex-direction: column;
+}
+
+.hero-section > div:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section > div:nth-of-type(2) {
+  padding: 2rem;
+}
+
+.hero-section > div > img {
+  width: 50%;
 }
 
 .interact {
@@ -335,6 +353,11 @@ ul {
   background-color: #6070ff;
   border-top-left-radius: 25% 45px;
   background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact h1 {
@@ -342,7 +365,6 @@ ul {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  text-align: center;
 }
 
 #popUpSpace h1 {
@@ -354,8 +376,7 @@ ul {
   color: #ebebff;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 form {
@@ -418,10 +439,13 @@ form {
   }
 
   .hero-section {
-    background-image: url(../Assets/Header-bg-desktop.png);
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
     background-color: white;
-    background-size: 100%;
-    padding: 160px 100px;
+  }
+
+  .hero-section > div > img {
+    width: 100%;
   }
 
   .menu-space {
@@ -545,10 +569,6 @@ form {
     align-items: center;
     text-align: center;
     background-image: url(../Assets/contact-bg.png);
-  }
-
-  .contact p:hover {
-    transform: translateY(-3px);
   }
 
   .contact-ellipse,
