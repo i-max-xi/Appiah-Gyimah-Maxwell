@@ -419,11 +419,11 @@ form {
 }
 
 .contact-ellipse {
-  transform: translateX(220px) translateY(-62px);
+  transform: translateX(160px) translateY(-62px);
 }
 
 .contact-rectangle {
-  transform: translateX(180px) translateY(-67px);
+  transform: translateX(160px) translateY(-77px);
 }
 
 /* for Desktop */
