@@ -75,10 +75,10 @@ const popUp = [
   {
     title: `Book Worm`,
     description:
-      'Do you love reading?, this application helps track users progress in redinf their favourite books',
+      'Do you love reading?, this application helps track users progress in reading their favourite books',
     card: './Assets/bookWorm.jpg',
     technologies: `<ul class='pale-info-container pop-up-ul'><li>React</li><li>Redux</li><li>REST API</li></ul>`,
-    action: `<button class='see-project' id='popUpBtn1' type='button' onclick='window.open('https://the-bookworm.netlify.app/')'>See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick='window.open('https://github.com/i-max-xi/Book-Worm')'>See Source<span class='fa fa-github'></span></button>`,
+    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://the-bookworm.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Book-Worm')">See Source<span class='fa fa-github'></span></button>`,
     seeProject: `<button class='see-project' id='btn1' type='button'>See Project</button>`,
   },
 
@@ -88,7 +88,7 @@ const popUp = [
       'A Movie ratings app <br> which provides in-depth information about each movie and allows users to give their views on the movie',
     card: './Assets/movies-2-watch.png',
     technologies: `<ul class='pale-info-container pop-up-ul'><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>`,
-    action: `<button class='see-project' id='popUpBtn1' type='button' onclick='window.open('https://saied2035.github.io/movie-app/')'>See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick='window.open('https://github.com/saied2035/movie-app')'>See Source<span class='fa fa-github'></span></button>`,
+    action: `<button class='see-project' id='popUpBtn1' type='button' onclick"window.open('https://saied2035.github.io/movie-app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/saied2035/movie-app')">See Source<span class='fa fa-github'></span></button>`,
     seeProject: `<button class='see-project' id='btn2' type='button'>See Project</button>`,
   },
 
@@ -98,7 +98,7 @@ const popUp = [
       'Add your achievments to the hall of fame!! <br> The leaderboard website allows users to submit their score. All data is preserved thanks to the external Leaderboard API service.',
     card: './Assets/leader-board.JPG',
     technologies: `<ul class='pale-info-container pop-up-ul'><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>`,
-    action: `<button class='see-project' id='popUpBtn1' type='button' onclick='window.open('https://i-max-xi.github.io/LeaderBoard/dist/')'>See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick='window.open('https://github.com/i-max-xi/LeaderBoard')'>See Source<span class='fa fa-github'></span></button>`,
+    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://i-max-xi.github.io/LeaderBoard/dist/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/LeaderBoard')">See Source<span class='fa fa-github'></span></button>`,
     seeProject: `<button class='see-project' id='btn3' type='button'>See Project</button>`,
   },
   
@@ -108,7 +108,7 @@ const popUp = [
       'A resource library to provide basic things and skills that come in handy in the digital world',
     card: './Assets/stuffnrandom.JPG',
     technologies: `<ul class='pale-info-container pop-up-ul'><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>`,
-    action: `<button class='see-project' id='popUpBtn1' type='button' onclick='window.open('https://stuffnrandomofficial.netlify.app/')'>See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick='window.open('https://github.com/i-max-xi/Youtube-Resource-Page.')'>See Source<span class='fa fa-github'></span></button>`,
+    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://stuffnrandomofficial.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Youtube-Resource-Page.")'>See Source<span class='fa fa-github'></span></button>`,
     seeProject: `<button class='see-project' id='btn4' type='button'>See Project</button>`,
   },
 ];
