@@ -118,7 +118,7 @@ nav a:hover {
 
 #popUpBtn1,
 #popUpBtn2 {
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
 }
 
@@ -464,13 +464,13 @@ form {
   }
 
   #popUpSpace {
-    transform: translateX(30%);
-    width: 55%;
+    transform: translateX(50%);
+    width: 45%;
   }
 
   #popUpBelow {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
 
