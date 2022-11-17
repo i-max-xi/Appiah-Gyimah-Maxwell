@@ -308,13 +308,15 @@ ul {
   font-size: 15px;
   color: #253858;
   padding-left: 0.1px;
-  transition: all 1s ease-in-out;
+  transition: 1s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
 }
 
 .skill-item ul li {
   background: #f7f7f9;
   border-radius: 8px;
   padding: 10px;
+  text-align: center;
 }
 
 .skill-logo {
