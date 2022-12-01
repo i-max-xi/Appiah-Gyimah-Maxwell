@@ -310,7 +310,7 @@ ul {
   color: #253858;
   padding-left: 0.1px;
   transition: 1s;
-  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
 }
 
 .skill-item ul li {
@@ -533,7 +533,8 @@ form {
     width: 40px;
   }
 
-  #ts, #node {
+  #ts,
+  #node {
     width: 70px;
     transform: translateX(5px);
   }
