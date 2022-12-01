@@ -305,10 +305,12 @@ ul {
 .skill-item ul {
   display: grid;
   grid-template-rows: auto auto auto;
+  gap: 2px;
   font-size: 15px;
   color: #253858;
   padding-left: 0.1px;
-  transition: all 1s ease-in-out;
+  transition: 1s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
 }
 
 .skill-item ul li {
@@ -325,11 +327,6 @@ ul {
 #js-logo {
   width: 50px;
   transform: translateX(-7px);
-}
-
-#css-logo {
-  width: 41px;
-  transform: translateX(-2px);
 }
 
 .skill-text {
@@ -529,14 +526,17 @@ form {
 
   .skill-item ul li {
     margin: 7px;
+    text-align: center;
   }
 
   .skill-logo {
     width: 40px;
   }
 
-  #css-logo {
-    width: 45px;
+  #ts,
+  #node {
+    width: 70px;
+    transform: translateX(5px);
   }
 
   #js-logo {
