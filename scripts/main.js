@@ -93,12 +93,12 @@ const popUp = [
   },
 
   {
-    title: `LeaderBoard`,
+    title: `Weather Port`,
     description:
-      'Add your achievments to the hall of fame!! <br> The leaderboard website allows users to submit their score. All data is preserved thanks to the external Leaderboard API service.',
-    card: './Assets/leader-board.JPG',
-    technologies: `<ul class='pale-info-container pop-up-ul'><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>`,
-    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://i-max-xi.github.io/LeaderBoard/dist/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/LeaderBoard')">See Source<span class='fa fa-github'></span></button>`,
+      'This project builds an app that accesses and informs the weather conditions of a specific input location',
+    card: './Assets/Weatherport.JPG',
+    technologies: `<ul class='pale-info-container pop-up-ul'><li>React</li><li>Bootstrap</li><li>Open Weather API</li></ul>`,
+    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://weatherport.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Weather-Port')">See Source<span class='fa fa-github'></span></button>`,
     seeProject: `<button class='see-project' id='btn3' type='button'>See Project</button>`,
   },
   
