@@ -103,12 +103,12 @@ const popUp = [
   },
   
   {
-    title: `Stuff 'n' Random`,
+    title: `Space Travellers`,
     description:
-      'A resource library to provide basic things and skills that come in handy in the digital world',
-    card: './Assets/stuffnrandom.JPG',
-    technologies: `<ul class='pale-info-container pop-up-ul'><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>`,
-    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://stuffnrandomofficial.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Youtube-Resource-Page.")'>See Source<span class='fa fa-github'></span></button>`,
+      'A reservation and booking system mocked with space rockets. Can be modified into a flight booking system',
+    card: './Assets/spaceTravellers.png',
+    technologies: `<ul class='pale-info-container pop-up-ul'><li>REACT</li><li>CSS</li><li>API</li></ul>`,
+    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://spacetravelershubs.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Space-Travellers')">See Source<span class='fa fa-github'></span></button>`,
     seeProject: `<button class='see-project' id='btn4' type='button'>See Project</button>`,
   },
 ];
