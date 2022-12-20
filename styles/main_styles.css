@@ -503,7 +503,7 @@ form {
 
   .work-item img:hover {
     transform: scale(1.03);
-    box-shadow: 1px 1px 1px 1px rgb(136, 135, 135);
+    box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.3);
   }
 
   button:hover {

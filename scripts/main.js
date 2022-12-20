@@ -103,13 +103,23 @@ const popUp = [
   },
   
   {
+    title: `QR Ledger`,
+    description:
+      'An application to minify portfolio links into a QR code and generate digital business cards from it',
+    card: './Assets/qr-ledger.png',
+    technologies: `<ul class='pale-info-container pop-up-ul'><li>REACT</li><li>CSS</li><li>Bootstrap</li><li>FIGMA</li></ul>`,
+    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://qrledger.netlify.app/')">See Live<span class='fa fa-external-link'></span></button>`,
+    seeProject: `<button class='see-project' id='btn4' type='button'>See Project</button>`,
+  },
+
+  {
     title: `Space Travellers`,
     description:
       'A reservation and booking system mocked with space rockets. Can be modified into a flight booking system',
     card: './Assets/spaceTravellers.png',
     technologies: `<ul class='pale-info-container pop-up-ul'><li>REACT</li><li>CSS</li><li>API</li></ul>`,
     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://spacetravelershubs.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Space-Travellers')">See Source<span class='fa fa-github'></span></button>`,
-    seeProject: `<button class='see-project' id='btn4' type='button'>See Project</button>`,
+    seeProject: `<button class='see-project' id='btn5' type='button'>See Project</button>`,
   },
 ];
 
@@ -197,6 +207,11 @@ const btn3Display = () => {
 
 const btn4Display = () => {
   selectedPopUP = 3;
+  popUpDisplay();
+};
+
+const btn5Display = () => {
+  selectedPopUP = 4;
   popUpDisplay();
 };
 
