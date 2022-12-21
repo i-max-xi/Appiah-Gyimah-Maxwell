@@ -83,32 +83,32 @@ const popUp = [
   },
 
   {
-    title: `Movies 2 watch`,
-    description:
-      'A Movie ratings app <br> which provides in-depth information about each movie and allows users to give their views on the movie',
-    card: './Assets/movies-2-watch.png',
-    technologies: `<ul class='pale-info-container pop-up-ul'><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>`,
-    action: `<button class='see-project' id='popUpBtn1' type='button' onclick"window.open('https://saied2035.github.io/movie-app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/saied2035/movie-app')">See Source<span class='fa fa-github'></span></button>`,
-    seeProject: `<button class='see-project' id='btn2' type='button'>See Project</button>`,
-  },
-
-  {
-    title: `Weather Port`,
-    description:
-      'This project builds an app that accesses and informs the weather conditions of a specific input location',
-    card: './Assets/Weatherport.JPG',
-    technologies: `<ul class='pale-info-container pop-up-ul'><li>React</li><li>Bootstrap</li><li>Open Weather API</li></ul>`,
-    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://weatherport.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Weather-Port')">See Source<span class='fa fa-github'></span></button>`,
-    seeProject: `<button class='see-project' id='btn3' type='button'>See Project</button>`,
-  },
-  
-  {
     title: `QR Ledger`,
     description:
       'An application to minify portfolio links into a QR code and generate digital business cards from it',
     card: './Assets/qr-ledger.png',
     technologies: `<ul class='pale-info-container pop-up-ul'><li>REACT</li><li>CSS</li><li>Bootstrap</li><li>FIGMA</li></ul>`,
     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://qrledger.netlify.app/')">See Live<span class='fa fa-external-link'></span></button>`,
+    seeProject: `<button class='see-project' id='btn2' type='button'>See Project</button>`,
+  },
+
+  {
+    title: `Movies 2 watch`,
+    description:
+      'A Movie ratings app <br> which provides in-depth information about each movie and allows users to give their views on the movie',
+    card: './Assets/movies-2-watch.png',
+    technologies: `<ul class='pale-info-container pop-up-ul'><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>`,
+    action: `<button class='see-project' id='popUpBtn1' type='button' onclick"window.open('https://saied2035.github.io/movie-app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/saied2035/movie-app')">See Source<span class='fa fa-github'></span></button>`,
+    seeProject: `<button class='see-project' id='btn3' type='button'>See Project</button>`,
+  },
+
+  {
+    title: `Weather Port`,
+    description:
+      'This project builds an app that accesses and informs the weather conditions of a specific input location',
+    card: './Assets/WeatherPort1.png',
+    technologies: `<ul class='pale-info-container pop-up-ul'><li>React</li><li>Bootstrap</li><li>FIGMA</li><li>Open Weather API</li></ul>`,
+    action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://weatherport.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Weather-Port')">See Source<span class='fa fa-github'></span></button>`,
     seeProject: `<button class='see-project' id='btn4' type='button'>See Project</button>`,
   },
 
@@ -176,6 +176,7 @@ const btn1 = document.querySelector('#btn1');
 const btn2 = document.querySelector('#btn2');
 const btn3 = document.querySelector('#btn3');
 const btn4 = document.querySelector('#btn4');
+const btn5 = document.querySelector('#btn5');
 
 // Functions
 const popUpDisplay = () => {
@@ -226,6 +227,8 @@ btn1.addEventListener('click', btn1Display);
 btn2.addEventListener('click', btn2Display);
 btn3.addEventListener('click', btn3Display);
 btn4.addEventListener('click', btn4Display);
+btn5.addEventListener('click', btn5Display);
+
 
 // Validate forms
 formSpace.addEventListener('submit', (event) => {
