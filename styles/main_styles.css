@@ -112,6 +112,7 @@ nav a:hover {
   z-index: 1;
   left: 0;
   top: 0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 /* #popUpSpace img sent below per stylelint */
@@ -166,7 +167,8 @@ nav a:hover {
 
 #popUpSpace img {
   border-radius: 8px;
-  width: 100%;
+  width: 90%;
+  object-fit: contain;
 }
 
 .interact {
@@ -503,7 +505,7 @@ form {
 
   .work-item img:hover {
     transform: scale(1.03);
-    box-shadow: var(--elevation-500-modal-window, 0px 2px 14px rgba(0, 0, 0, .15), 0px 0px 0px .5px rgba(0, 0, 0, .2));
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     object-fit: contain;
   }
 
