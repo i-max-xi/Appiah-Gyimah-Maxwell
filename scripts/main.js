@@ -107,7 +107,7 @@ const popUp = [
     description:
       'This project builds an app that accesses and informs the weather conditions of a specific input location',
     card: './Assets/WeatherPort1.png',
-    technologies: `<ul class='pale-info-container pop-up-ul'><li>React</li><li>Bootstrap</li><li>FIGMA</li><li>Open Weather API</li></ul>`,
+    technologies: `<ul class='pale-info-container pop-up-ul'><li>React</li><li>Bootstrap</li><li>Open Weather API</li></ul>`,
     action: `<button class='see-project' id='popUpBtn1' type='button' onclick="window.open('https://weatherport.netlify.app/')">See Live<span class='fa fa-external-link'></span></button><button class='see-project' id='popUpBtn2' type='button' onclick="window.open('https://github.com/i-max-xi/Weather-Port')">See Source<span class='fa fa-github'></span></button>`,
     seeProject: `<button class='see-project' id='btn4' type='button'>See Project</button>`,
   },
